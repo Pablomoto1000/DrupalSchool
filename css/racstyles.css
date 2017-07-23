@@ -360,12 +360,10 @@ margin: 35.72% 0 0 11%
   overflow-y: hidden;
   width: 100%;
   font-size: 0.2em;
-  border: 1px solid red;
   padding: 4% 4%;
 }
 .featuredtext {
   width: 39.9%;
-  border: 2px solid green;
   display: inline-block;
   background-color: #88898e;
   transform: scale(1.3);
@@ -403,7 +401,6 @@ margin: 35.72% 0 0 11%
   display: inline-block;
   width: 19.4%;
   height: 301px;
-  border: 2px solid blue;
   background-position: center;
   background-size: cover;
 }
@@ -462,13 +459,11 @@ margin: 35.72% 0 0 11%
 }
 
 .upcoming {
-  border: 1px solid green;
   margin: 3.3% 0 0 0;
 }
 
 .month {
   display: inline-block;
-  border: 2px solid blue;
   width: 80px;
   text-align: center;
   margin: 0 19.4% 0 5.7%;
@@ -482,7 +477,6 @@ margin: 35.72% 0 0 11%
 }
 
 .day {
-  border: 2px solid yellow;
   display: block;
   width: 80px;
   background-color: white;
@@ -493,14 +487,13 @@ margin: 35.72% 0 0 11%
 .textupcomingbar {
   width: 100%;
   margin: -4.8% 0 0 0;
-  border: 1px solid red;
 }
+
 .textupcoming {
   font-weight: 900;
   display: inline-block;
   font-size: 1.02em;
   margin: 0 1.6% 0 12.5%;
-  border: 1px solid blue;
 }
 
 .textupcoming a {
@@ -523,13 +516,11 @@ margin: 35.72% 0 0 11%
   height: 684px;
   width: 100%;
   margin: 4.7% 0 0 0;
-  border: 2px solid red;
 }
 
 .getconnected-top {
     height: 50%;
     font-size: 0;
-    border: 1px solid yellow;
 }
 
 .getconnected-cube {
@@ -537,14 +528,12 @@ margin: 35.72% 0 0 11%
   width: 25%;
   padding-right: 0;
   display: inline-block;
-  border: 1px solid blue;
   color: white;
 }
 
 .getconnected-bottom {
     height: 50%;
     font-size: 0;
-    border: 2px solid green;
 }
 
 #FirstBlockUp {
@@ -556,7 +545,6 @@ margin: 35.72% 0 0 11%
 }
 
 .getconnected-iconsbar {
-    border: 1px solid blue;
     margin: 46.3% 0 0 0;
     height: 100px;
 }
@@ -749,10 +737,8 @@ font-size: 0.6rem;
 
 .inputbar {
   margin: 2% 0 0 3.4%;
-  border: 1px solid blue;
 }
 .button {
-  border: 2px solid white;
   width: 12%;
   font-weight: 900;
   color: white;
@@ -818,20 +804,17 @@ font-size: 0.6rem;
   width: 31.5%;
   height: 100%;
   background-color: #ff3333;
-  border: 1px solid green;
 }
 
 .aboutright {
   float: right;
   width: 68.5%;
   height: 100%;
-  border: 2px solid darkred;
 }
 
 .abouttop {
   width: 100%;
   height: 61.5%;
-  border: 1px solid yellow;
   background-image: url("img/img5.png");
   background-position: left;
   background-size: cover;
@@ -841,7 +824,6 @@ font-size: 0.6rem;
 .aboutdown {
   width: 100%;
   height: 38.5%;
-  border: 3px solid darkblue;
   overflow-y: hidden;
 
 }
@@ -918,14 +900,12 @@ footer {
   width: 70%;
   height: 100%;
   float: left;
-  border: 1px solid green;
 }
 
 .footerright {
   width: 30%;
   height: 100%;
   float: right;
-  border: 1px solid blue;
 }
 
 .footerlogo {
