@@ -471,7 +471,7 @@ margin: 35.72% 0 0 11%
   border: 2px solid blue;
   width: 80px;
   text-align: center;
-  margin: 0 20.4% 0 5.7%;
+  margin: 0 19.4% 0 5.7%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   font-size: 1.2em;
@@ -491,6 +491,7 @@ margin: 35.72% 0 0 11%
 }
 
 .textupcomingbar {
+  width: 100%;
   margin: -4.8% 0 0 0;
   border: 1px solid red;
 }
@@ -498,7 +499,7 @@ margin: 35.72% 0 0 11%
   font-weight: 900;
   display: inline-block;
   font-size: 1.02em;
-  margin: 0 2.6% 0 12.5%;
+  margin: 0 1.6% 0 12.5%;
   border: 1px solid blue;
 }
 
@@ -784,6 +785,10 @@ font-size: 0.6rem;
 /*FORM SECTION END*/
 /*--------------------------------------*/
 
+/*--------------------------------------*/
+/*READING AREA SECTION*/
+/*--------------------------------------*/
+
 .readingarea{
   background-image: url(img/third_image_back.jpg);
   background-position: left;
@@ -793,3 +798,207 @@ font-size: 0.6rem;
   width: 100%;
   height: 633px;
 }
+/*--------------------------------------*/
+/*READING AREA SECTION END*/
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+/*ABOUT AREA SECTION*/
+/*--------------------------------------*/
+
+.aboutcontainer {
+  width: 87.8%;
+  height: 736px;
+  margin: -18% 0 0 0;
+  font-size: 0;
+}
+
+.aboutleft {
+  float: left;
+  width: 31.5%;
+  height: 100%;
+  background-color: #ff3333;
+  border: 1px solid green;
+}
+
+.aboutright {
+  float: right;
+  width: 68.5%;
+  height: 100%;
+  border: 2px solid darkred;
+}
+
+.abouttop {
+  width: 100%;
+  height: 61.5%;
+  border: 1px solid yellow;
+  background-image: url("img/img5.png");
+  background-position: left;
+  background-size: cover;
+  zoom: 1;
+}
+
+.aboutdown {
+  width: 100%;
+  height: 38.5%;
+  border: 3px solid darkblue;
+  overflow-y: hidden;
+
+}
+
+.abouttitle {
+  font-size: 1.5rem;
+  padding: 25.5% 0 0 8.5%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.abouttext {
+  font-size: 0.68rem;
+  line-height: 1.66em;
+  font-weight: 900;
+  color: white;
+  padding: 7% 0 0 10%;
+}
+
+#abouttitlegray {
+  color: #89898e;
+  font-weight: 100;
+  padding: 4.7% 0 0 4.6%;
+}
+
+#abouttextblack {
+  color: black;
+  padding: 1.6% 0 0 5%;
+}
+
+/*--------------------------------------*/
+/*ABOUT AREA SECTION END*/
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+/*SPONSORS AREA SECTION*/
+/*--------------------------------------*/
+.sponsors {
+  width: 100%;
+  padding-left: 13%;
+  height: 268px;
+  background-color: #bfbfbf;
+}
+
+.sponsors a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5% 5% 4.5% 5%;
+  padding: 0 3.2% 0 3.2%;
+}
+
+.sponsors a:hover {
+  opacity: 0.6;
+}
+
+/*--------------------------------------*/
+/*SPONSORS AREA SECTION END*/
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+/*FOOTER SECTION*/
+/*--------------------------------------*/
+footer {
+  background-color: #323339;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  font-size: 0;
+}
+
+.footerleft {
+  width: 70%;
+  height: 100%;
+  float: left;
+  border: 1px solid green;
+}
+
+.footerright {
+  width: 30%;
+  height: 100%;
+  float: right;
+  border: 1px solid blue;
+}
+
+.footerlogo {
+  margin: 17% 0 0 0;
+  width: 60%;
+}
+
+.footertext {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.51rem;
+  padding: 10% 0 0 0;
+  line-height: 2em;
+}
+
+.footerlistbar {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 900;
+  font-size: 0.5rem;
+  letter-spacing: 0.6px;
+  width: 75.5%;
+  margin: 6% 0% 0 14%;
+  padding: 0 0% 5% 0;
+  color: red;
+  border-bottom: 1.4px solid white;
+}
+
+.footerlistbar ul {
+  display: inline-block;
+  padding: 0 0 0 6.5%;
+  vertical-align: top;
+}
+
+.footerlist {
+  list-style: none;
+  margin: 7% 0 0 0;
+
+}
+
+.footerlist a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerlist a:hover {
+  text-decoration: underline;
+}
+
+.footericonbar {
+  font-size: 40px;
+  width: 100%;
+  margin: 5% 0 0 34.5%;
+}
+
+.footericon {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0 0 2%;
+}
+
+.footericon a {
+  color: white;
+  text-decoration: none;
+}
+
+#white {
+  color: white;
+}
+
+.footericon a:hover {
+  opacity: 0.7;
+}
+/*--------------------------------------*/
+/*FOOTER SECTION END*/
+/*--------------------------------------*/
