@@ -175,6 +175,10 @@ margin: 35.72% 0 0 11%
   opacity: 0.6;
 }
 
+.responsivenav {
+  display: none;
+}
+
 /*--------------------------------------*/
 /*NAV SECTION END*/
 /*--------------------------------------*/
@@ -187,6 +191,10 @@ margin: 35.72% 0 0 11%
     width: 73%;
     transform: translate(1.3%, 10%);
     margin: 6.7% 0 0 25.9%
+}
+
+.wantblockresponsive {
+  display: none;
 }
 
 .wantlist {
@@ -362,6 +370,11 @@ margin: 35.72% 0 0 11%
   font-size: 0.2em;
   padding: 4% 4%;
 }
+
+#featuredmobile {
+  display: none;
+}
+
 .featuredtext {
   width: 39.9%;
   display: inline-block;
@@ -439,6 +452,10 @@ margin: 35.72% 0 0 11%
 /*--------------------------------------*/
 /*UPCOMING EVENTS SECTION*/
 /*--------------------------------------*/
+#upcomingmobile {
+  display: none;
+}
+
 .upcomingtitle {
   display: inline-block;
 }
@@ -512,6 +529,10 @@ margin: 35.72% 0 0 11%
 /*--------------------------------------*/
 /*GET CONNECTED SECTION*/
 /*--------------------------------------*/
+#getconmobile {
+  display: none;
+}
+
 .getconnected {
   height: 684px;
   width: 100%;
@@ -982,3 +1003,249 @@ footer {
 /*--------------------------------------*/
 /*FOOTER SECTION END*/
 /*--------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES*/
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px){
+
+
+/*--------------------------------------*/
+/*NAV SECTION*/
+/*--------------------------------------*/
+header {
+  height: 127vw;
+}
+.logo {
+  width: 27%;
+  height: 8%;
+  margin: 4% 0 0 16%;
+  position: absolute;
+}
+
+.row {
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 100%;
+  margin: 0 auto;
+  height: 72px;
+}
+
+.main-nav {
+  width: 100%;
+  height: 150px;
+}
+
+.top-nav {
+  height: 5%;
+}
+
+.top-nav li{
+  display: none;
+}
+.bottom-nav {
+  padding: 0;
+  height: 0;
+}
+
+.top-nav li,
+.bottom-nav li{
+  display: none;
+}
+
+.responsivenav {
+  display: block;
+  margin: 1% 0 0 0;
+  float: right;
+  font-size: 1.7em;
+  list-style: none;
+}
+
+.responsivenav li {
+  display: inline-block;
+  margin: 0 0 0 0;
+}
+
+.responsivenav li a {
+  color: black;
+  text-decoration: none;
+}
+
+.next-arrow {
+  width: 16.5%;
+  top: 30%;
+  left: 82%;
+}
+
+.prev-arrow {
+  width: 16.5%;
+  top: 30%;
+  left: 1%;
+}
+
+.selector {
+  margin: 96% 0 0 12%;
+}
+
+.selector li {
+  width: 20%;
+}
+
+.slidertext {
+  display: none;
+}
+
+.wantblock {
+  display: none;
+}
+
+.wantblockresponsive {
+  display: block;
+  width: 100%;
+  background-color: #ff3333;
+}
+
+.wantblockresponsive li {
+  height: 4.5em;
+  padding: 9% 0 0 17%;
+  list-style: none;
+}
+.enrolldarker a,
+.enrolllighter a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+
+.enrollnow {
+  padding: 3% 12% 3% 12%;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.enrolldarker {
+  background-color: #88898e;
+}
+
+.enrolllighter {
+  background-color: rgb(154, 155, 160);
+}
+/*--------------------------------------*/
+/*NAV SECTION END*/
+/*--------------------------------------*/
+#featuredmobile {
+  display: block;
+}
+
+.featuredsmobile {
+    width: 80%;
+    margin: 0 0 0 4%;
+}
+
+.sectiontitle {
+  font-size: 1.3rem;
+}
+.featurestand {
+    margin: 66% 0 0 5%;
+    font-size: 0.9em;
+}
+
+.featureone {
+  background-image: url(img/girl-student.png);
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+.featuretwo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(img/JS6_4325.png);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.featurethree {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(img/js3.png);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+
+}
+#upcomingmobile {
+  display: block;
+  height: 125px;
+
+}
+
+#getconmobile {
+  display: block;
+}
+
+.getconnected-cube {
+  width: 100%;
+}
+
+.textupcoming {
+  margin: 5% 0 0 -15%;
+  position: absolute;
+}
+
+.Form {
+    width: 100%;
+    height: 170px;
+}
+
+.footerleft {
+  display: none;
+}
+
+.footerright{
+  width: 100%;
+}
+
+.footerlogo {
+  width: 60%;
+  margin: 8% 0 0 14%;
+}
+
+.footertext {
+  font-size: 0.53rem;
+  text-align: center;
+  margin: 0 0 0 -10%;
+}
+
+
+
+#featuredpc {
+  display: none;
+}
+
+#events {
+  display: none;
+}
+
+#getcon {
+  display: none;
+}
+
+
+.readingarea {
+  display: none;
+}
+
+.aboutcontainer {
+  display: none;
+}
+
+.sponsors {
+  display: none;
+}
+
+#pcfooter {
+  display: none;
+}
+}
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES END*/
+/*-------------------------------------------------------------------------*/
