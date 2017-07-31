@@ -1,0 +1,330 @@
+/*--------------------------------------*/
+/*GET CONNECTED SECTION*/
+/*--------------------------------------*/
+#getconmobile {
+  display: none;
+}
+
+.getconnected {
+  height: 684px;
+  width: 100%;
+  margin: 4.7% 0 0 0;
+  .getconnected-cube {
+    height: 100%;
+    width: 25%;
+    padding-right: 0;
+    display: inline-block;
+    color: white;
+  }
+  .instagram-icons {
+    position: relative;
+    font-weight: $bigweight;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 88% 0 0 10%;
+    font-size: 1.2rem;
+  }
+
+  .single-icons {
+    position: relative;
+    font-weight: $bigweight;
+    text-transform: uppercase;
+    list-style: none;
+    margin: -8% 0 0 8%;
+    font-size: 1.2rem;
+  }
+
+  .fa-instagram {
+    color: #f0f0f2;
+  }
+
+
+  .fa-twitter{
+    color: red;
+  }
+
+  .twit {
+    position: absolute;
+    font-size: 0.678rem;
+    color: white;
+    margin: 90% 0 0 39.5%;
+    font-weight: $bigweight;
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #twitred {
+    position: relative;
+    color: red;
+    margin: -4.5% 0% 0% 42%;
+    font-size: 0.6rem;
+    a {
+      text-decoration: none;
+      color: red;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .advicetext {
+    color: #646e82;
+    font-size: 0.676rem;
+    margin: 40% 8%;
+    a {
+      text-decoration: none;
+      color: red;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .getconnected-top {
+    height: 50%;
+    font-size: 0;
+    #FirstBlockUp {
+      position: relative;
+      vertical-align: top;
+      background-color: #ff3333;
+      font-size: 2em;
+      margin: 0 0 0 0;
+      #getconnected-title {
+        color: #f0f0f2;
+        vertical-align: top;
+        margin: 8% 0 0 7.2%;
+        font-size: 2.1rem;
+        font-weight: $bigweight;
+      }
+
+      .getconnected-iconsbar {
+        margin: 46.3% 0 0 0;
+        height: 100px;
+        .getconnected-icons {
+          font-weight: $bigweight;
+          text-transform: uppercase;
+          display: inline-block;
+          margin: 0 0 0 0;
+          padding-left: 12.3%;
+          color: #f0f0f2;
+          font-size: 1.7rem;
+          a {
+            color: #f0f0f2;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+    #SecondBlockUp {
+      position: relative;
+      vertical-align: top;
+      background-image: url("img/img6.png");
+      background-position: center;
+      background-size: cover;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+
+    #ThirdBlockUp {
+      position: relative;
+      vertical-align: top;
+      background-color: #f0f0f2;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+
+    #ForthBlockUp {
+      position: relative;
+      vertical-align: top;
+      background-image: url("img/img0.png");
+      background-position: center;
+      background-size: cover;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+  }
+  .getconnected-bottom {
+    height: 50%;
+    font-size: 0;
+    #FirstBlockDown {
+      position: relative;
+      vertical-align: top;
+      background-image: url("img/img1.png");
+      background-position: center;
+      background-size: cover;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+
+    #SecondBlockDown {
+      vertical-align: top;
+      background-color: #f0f0f2;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+
+    #ThirdBlockDown {
+      position: relative;
+      vertical-align: top;
+      background-image: url("img/img2.png");
+      background-position: center;
+      background-size: cover;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+
+    #ForthBlockDown {
+      position: relative;
+      vertical-align: top;
+      background-color: #f0f0f2;
+      font-size: 2em;
+      margin: 0 0 0 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  #getcon {
+    display: none;
+  }
+  #getconmobile {
+    display: block;
+  }
+  .getconnected-cube {
+    height: 100%;
+    width: 100%;
+    padding-right: 0;
+    display: inline-block;
+    color: white;
+  }
+  .instagram-icons {
+    position: relative;
+    font-weight: $bigweight;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 88% 0 0 10%;
+    font-size: 1.2rem;
+  }
+
+  .single-icons {
+    position: relative;
+    font-weight: $bigweight;
+    text-transform: uppercase;
+    list-style: none;
+    margin: -8% 0 0 8%;
+    font-size: 1.2rem;
+  }
+
+  .fa-instagram {
+    color: #f0f0f2;
+  }
+
+
+  .fa-twitter{
+    color: red;
+  }
+
+  .twit {
+    position: absolute;
+    font-size: 0.678rem;
+    color: white;
+    margin: 90% 0 0 39.5%;
+    font-weight: $bigweight;
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #twitred {
+    position: relative;
+    color: red;
+    margin: -4.5% 0% 0% 42%;
+    font-size: 0.6rem;
+    a {
+      text-decoration: none;
+      color: red;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .advicetext {
+    color: #646e82;
+    font-size: 0.676rem;
+    margin: 40% 8%;
+    a {
+      text-decoration: none;
+      color: red;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #FirstBlockUp {
+    position: relative;
+    vertical-align: top;
+    background-color: #ff3333;
+    font-size: 2em;
+    margin: 0 0 0 0;
+    #getconnected-title {
+      color: #f0f0f2;
+      vertical-align: top;
+      margin: 8% 0 0 7.2%;
+      font-size: 2.1rem;
+      font-weight: $bigweight;
+    }
+
+    .getconnected-iconsbar {
+      margin: 46.3% 0 0 0;
+      height: 100px;
+      .getconnected-icons {
+        font-weight: $bigweight;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0 0 0 0;
+        padding-left: 12.3%;
+        color: #f0f0f2;
+        font-size: 1.7rem;
+        a {
+          color: #f0f0f2;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  #ThirdBlockUp {
+    position: relative;
+    vertical-align: top;
+    background-color: #f0f0f2;
+    font-size: 2em;
+    margin: 0 0 0 0;
+  }
+
+  #FirstBlockDown {
+    position: relative;
+    vertical-align: top;
+    background-image: url("img/img1.png");
+    background-position: center;
+    background-size: cover;
+    font-size: 2em;
+    margin: 0 0 0 0;
+  }
+
+}
+
+/*--------------------------------------*/
+/*GET CONNECTED SECTION END*/
+/*--------------------------------------*/

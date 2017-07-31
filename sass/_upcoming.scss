@@ -1,0 +1,108 @@
+/*--------------------------------------*/
+/*UPCOMING EVENTS SECTION*/
+/*--------------------------------------*/
+#upcomingmobile {
+  display: none;
+}
+
+.upcomingtitle {
+  display: inline-block;
+}
+
+#moreupcoming {
+  text-decoration: none;
+  margin-left: 70.5%;
+  font-size: 0.5em;
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.upcoming {
+  margin: 3.3% 0 0 0;
+  .month {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin: 0 19.4% 0 5.7%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: $bigweight;
+    font-size: 1.2em;
+    height: 33px;
+    background: #ff3333;
+    color: white;
+    text-transform: uppercase;
+    .day {
+      display: block;
+      width: 80px;
+      background-color: white;
+      color: black;
+      font-size: 1.6em;
+    }
+  }
+  .textupcomingbar {
+    width: 100%;
+    margin: -4.8% 0 0 0;
+    .textupcoming {
+      font-weight: $mediumweight;
+      display: inline-block;
+      font-size: 1.02em;
+      margin: 0 1.6% 0 12.5%;
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .month {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin: 0 19.4% 0 5.7%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: $bigweight;
+    font-size: 1.2em;
+    height: 33px;
+    background: #ff3333;
+    color: white;
+    text-transform: uppercase;
+    .day {
+      display: block;
+      width: 80px;
+      background-color: white;
+      color: black;
+      font-size: 1.6em;
+    }
+  }
+  .textupcoming {
+    font-weight: $mediumweight;
+    display: inline-block;
+    font-size: 1.02em;
+    margin: 5% 0 0 -15%;
+    position: absolute;
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  #upcomingmobile {
+    display: block;
+    height: 140px;
+  }
+}
+/*--------------------------------------*/
+/*UPCOMING EVENTS SECTION END*/
+/*--------------------------------------*/

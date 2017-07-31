@@ -1,402 +1,534 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/racstyles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200|Raleway:400|Open+Sans" rel="stylesheet">
-    <title>DrupalSchool</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="row">
-          <a href="#"><img src="css/img/logo.png" alt="Logo" class="logo"></a>
-          <div class="main-nav">
-            <ul class="top-nav">
-              <li><a href="#">MY RACC</a></li>
-              <li><a href="#">MILLER CENTER FOR THE ARTS</a></li>
-              <li><a href="#">DIRECTORY</a></li>
-              <li><a href="#">GIVE</a></li>
-              <li><a href="#">SEARCH</a></li>
-              <li><a href="#"><i class="fa fa-search" style="font-size:16px; margin-left:-24px; color:white;"></i></a></li>
-            </ul>
-            <ul class="bottom-nav">
-              <li><a href="#">about racc</a></li>
-              <li><a href="#">academics</a></li>
-              <li><a href="#">admissions</a></li>
-              <li><a href="#">student life</a></li>
-              <li><a href="#">contact</a></li>
-              <li><a href="#"><strong>apply</strong></a></li>
-            </ul>
-            <ul class="responsivenav">
-              <li><a href="#"><i class="fa fa-search"></i></a></li>
-              <li><a href="#"><i class="fa fa-bars"></i></a></li>
-            </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600,900|Open+Sans:400,600,800" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/racstyles.css"> -->
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title>DrupalSchool</title>
+  <script type="text/javascript" charset="utf-8">
+  $(window).load(function () {
+    $('.flexslider').flexslider();
+  });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="css/img/slide.png" />
+          <div class="gradient">
           </div>
-        </div>
-      </nav>
-      <a id="prev" href="#"><img class="prev-arrow" src="css/img/prevslider.png" alt="Prev"></a>
-      <a id="next" href="#"><img class="next-arrow" src="css/img/nextslider.png" alt="Next"></a>
-      <div class="slidertext">
-        <p id="enroll">ENROLL FOR FALL CLASSES NOW!</p>
-        <p>Need help with your tuition, fees or books?
-          Apply for <br>a scholarship today from the Foyndation for RACC.</p>
-      </div>
-      <ul class="selector">
-        <li class="redselector">
-          <a href="#">____</a>
-        </li>
-        <li class="redselector">
-          <a href="#">____</a>
-        </li>
-        <li class="redselector">
-          <a href="#">____</a>
-        </li>
-        <li class="redselector">
-          <a href="#">____</a>
-        </li>
-      </ul>
-
-      <div class="wantblock">
-        <div class="wantlist">
-          <ul>
-            <li id="bone"><a href="#">I WANT TO</a></li>
-            <li id="btwo"><a href="#">APPLY NOW</a></li>
-          </ul>
-        </div>
-
-        <div class="wanttext">
-          <img class="commpic" src="css/img/commu.png" alt="Community">
-          <div class="decoration">
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="wantblockresponsive">
-      <ul>
-        <li><a class="enrollnow" href="#">ENROLL NOW</a></li>
-        <li class="enrolldarker"><a href="#">PROSPECTIVE STUDENTS</a></li>
-        <li class="enrolllighter"><a href="#">APPLY NOW</a></li>
-        <li class="enrolldarker" ><a href="#">HOW TO PAY FOR COLLEGE</a></li>
-        <li class="enrolllighter"> <a href="#">CAMPUS LIFE</a></li>
-      </ul>
-    </div>
-      <div id="wantdown" class="wantblock">
-
-        <div class="wantlist">
-          <ul>
-            <li id="bthree"><a href="#">HOW TO PAY <br>FOR COLLEGE</a></li>
-            <li id="bfour"><a href="#">STUDENT LIFE</a></li>
-          </ul>
-        </div>
-
-        <div class="wanttext">
-          <div class="applyblock">
-            <div class="applyfirst">
-              <p>APPLY <br>ONLINE AS:</p>
-              <ul id="applylist1">
-                <li><a href="#">First-time College Student</a></li>
-                <li><a href="#">Transfer Student</a></li>
-                <li><a href="#">Returning Student</a></li>
-                <li><a href="#">Nursing Candidate</a></li>
-              </ul>
-              <ul id="applylist2">
-                <li><a href="#">Early Applicant</a></li>
-                <li><a href="#">International Student</a></li>
-                <li><a href="#">Student with a Disability</a></li>
-                <li><a href="#">Guest Student</a></li>
-              </ul>
+          <div class="slidertext">
+            <a href="#"><p id="enroll">ENROLL FOR FALL CLASSES NOW!</p></a>
+            <p id="enrollnone">Need help with your tuition, fees or books?
+              Apply for <br>a scholarship today from the Foyndation for RACC.</p>
             </div>
-            <div class="applysec">
-              <p>APPLY <br>ONLINE AS:</p>
-              <p class="sectext">If you want answers from a <br>current RACC student, Raven <br>
-              Ambassadors can help. The ambassadors will answer any <br>
-              questions you have about life <br>
-              at the College</p>
+          </li>
+          <li>
+            <img src="css/img/slide2.png" />
+            <div class="gradient">
             </div>
-          </div>
-        </div>
-      </div>
-
-      <section id="featuredpc">
-        <p class="sectiontitle">FEATURED NEWS</p>
-          <div class="featured">
-            <div class="featuredtext">
-              <div id="spotlight1" class="spotlight">
-                <div class="featuredtextpos">
-                <p id="studentspot" class="sectiontitle">STUDENT SPOTLIGHT</p>
-                <p id="iesha" class="sectiontitle">IESHA PIERCE</p>
-                <p>Lorem ipsum dolor sit amet, consectetur<br>
-                  adipisicing elit, sed do eiusmod tempor<br>
-                  incididunt ut labore et dolore magna <br>
-                  aliqua. Ut enim ad minim veniam, quis<br>
-                  nostrud exercitation ullamco laboris nisi</p>
-                </div>
+            <div class="slidertext">
+              <a href="#"><p id="enroll">ENROLL NOW FOR <br>FALL 2017</p></a>
+              <p id="enrollnone">Open Enrollment Days August 12th and 15th. <br>
+                Classes begin August 26th. #RegisterToday</p>
               </div>
-            </div>
+            </li>
+            <li>
+              <img src="css/img/slide3.png" />
+              <div class="gradient">
+              </div>
+              <div class="slidertext">
+                <a href="#"><p id="enroll">ACCELERATED <br>EVENING CLASSES <br>
+                  IN SINKING SPRING</p></a>
+                  <p id="enrollnone">Introducing courses at Wilson Southern Middle <br>
+                    School this fall. Learn more</p>
+                  </div>
+                </li>
+                <li>
+                  <img src="css/img/slide4.jpg" />
+                  <div class="gradient">
+                  </div>
+                  <div class="slidertext">
+                    <a href="#"><p id="enroll">KICKSTART YOUR <br>CAREER THIS FALL <br>
+                      IN SINKING SPRING</p></a>
+                      <p id="enrollnone">Join us for Sinking Spring Registration on August <br>
+                        14 from 3-7pm at Wilson Southern Middle School.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <nav>
+                  <div class="row">
+                    <a href="#"><img src="css/img/logo.png" alt="Logo"></a>
+                    <div class="main-nav">
+                      <ul class="top-nav">
+                        <li><a href="#">MY RACC</a></li>
+                        <li><a href="#">MILLER CENTER FOR THE ARTS</a></li>
+                        <li><a href="#">DIRECTORY</a></li>
+                        <li><a href="#">GIVE</a></li>
+                        <li><a href="#">SEARCH</a></li>
+                        <li class="searchi"><a href="#"><i class="fa fa-search"></i></a></li>
+                      </ul>
+                      <ul id="bot-nav" class="bottom-nav">
+                        <li>
+                          <a href="#" aria-haspopup="true">about racc</a>
+                          <ul>
+                            <li><a href="/">Design</a></li>
+                            <li><a href="/">HTML</a></li>
+                            <li><a href="/">CSS</a></li>
+                            <li><a href="/">JavaScript</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" aria-haspopup="true">academics</a>
+                          <ul>
+                            <li><a href="/">Design</a></li>
+                            <li><a href="/">HTML</a></li>
+                            <li><a href="/">CSS</a></li>
+                            <li><a href="/">JavaScript</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" aria-haspopup="true">admissions</a>
+                          <ul>
+                            <li><a href="/">Design</a></li>
+                            <li><a href="/">HTML</a></li>
+                            <li><a href="/">CSS</a></li>
+                            <li><a href="/">JavaScript</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" aria-haspopup="true">student life</a>
+                          <ul>
+                            <li><a href="/">Design</a></li>
+                            <li><a href="/">HTML</a></li>
+                            <li><a href="/">CSS</a></li>
+                            <li><a href="/">JavaScript</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" aria-haspopup="true">contact</a>
+                          <ul>
+                            <li><a href="/">Design</a></li>
+                            <li><a href="/">HTML</a></li>
+                            <li><a href="/">CSS</a></li>
+                            <li><a href="/">JavaScript</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#"><strong>apply</strong></a></li>
+                      </ul>
+                      <ul class="responsivenav">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a id="responsivebars" href="javascript:void(0);"><i  id="barcan" class="fa fa-bars"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <div class="wantblock">
+                  <div class="wantlist">
+                    <ul>
+                      <li id="bone"><a href="javascript:void(0);">I WANT TO</a></li>
+                      <li id="btwo"><a href="javascript:void(0);">APPLY NOW</a></li>
+                      <li id="bthree"><a href="javascript:void(0);">HOW TO PAY <br>FOR COLLEGE</a></li>
+                      <li id="bfour"><a href="javascript:void(0);">STUDENT LIFE</a></li>
+                    </ul>
+                  </div>
 
-          <div id="spotlight2" class="spotlight">
-            <p class="featurestand">Finding your voice</p>
-          </div>
-          <div id="spotlight3" class="spotlight">
-            <p class="featurestand">RACC Graduate Survey <br>2014 - 2015</p>
-          </div>
-        </div>
-      </section>
-      <section id="featuredmobile">
-        <p class="sectiontitle">FEATURED NEWS</p>
-        <div class="featuredsmobile">
-          <div class="featureone">
-            <p class="featurestand">Student Spotlight</p>
-          </div>
-          <div class="featuretwo">
-            <p class="featurestand"> Become A Certified Auctioneer</p>
-          </div>
-          <div class="featurethree">
-            <p class="featurestand">Enroll Now or Spring 2!</p>
-          </div>
-        </div>
-      </section>
+                  <div id="tone" class="wanttext">
+                    <img class="commpic" src="css/img/commu.png" alt="Community">
+                    <div class="decoration">
+                    </div>
+                    <div class="applyblock">
+                      <div class="applyfirst">
+                        <p>APPLY <br>ONLINE AS:</p>
+                        <ul id="applylist1">
+                          <li><a href="#">First-time College Student</a></li>
+                          <li><a href="#">Transfer Student</a></li>
+                          <li><a href="#">Returning Student</a></li>
+                          <li><a href="#">Nursing Candidate</a></li>
+                        </ul>
+                        <ul id="applylist2">
+                          <li><a href="#">Early Applicant</a></li>
+                          <li><a href="#">International Student</a></li>
+                          <li><a href="#">Student with a Disability</a></li>
+                          <li><a href="#">Guest Student</a></li>
+                        </ul>
+                      </div>
+                      <div class="applysec">
+                        <p>APPLY <br>ONLINE AS:</p>
+                        <p class="sectext">If you want answers from a <br>current RACC student, Raven <br>
+                          Ambassadors can help. The ambassadors will answer any <br>
+                          questions you have about life <br>
+                          at the College</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="ttwo" class="wanttext">
+                      <img class="commpic" src="css/img/ttwo.png" alt="Community">
+                      <div class="decoration">
+                      </div>
+                      <div class="applyblock">
+                        <div class="applyfirst">
+                          <p>APPLY <br>ONLINE AS:</p>
+                          <ul id="applylist1">
+                            <li><a href="#">Degree-Seeking Student</a></li>
+                            <li><a href="#">Early Admission Student</a></li>
+                            <li><a href="#">Non-Degree Student</a></li>
+                            <li><a href="#">Guest Student</a></li>
+                          </ul>
+                          <ul id="applylist2" style="display:none;">
+                            <li><a href="#">Early Applicant</a></li>
+                            <li><a href="#">International Student</a></li>
+                            <li><a href="#">Student with a Disability</a></li>
+                            <li><a href="#">Guest Student</a></li>
+                          </ul>
+                        </div>
+                        <div class="applysec">
+                          <p>UNSURE <br>WHERE TO <br>BEGIN?</p>
+                          <p class="sectext">Speak with one of our Enrollment Coordinators by visiting the Welcome Center, calling 610-607-6224, or complete this Information Request and we’ll be in touch with you.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="tthree" class="wanttext">
+                      <img class="commpic" src="css/img/tthree.png" alt="Community">
+                      <div class="decoration">
+                      </div>
+                      <div class="applyblock">
+                        <div class="applyfirst">
+                          <p>SERVICES FOR <br>STUDENTS</p>
+                          <ul id="applylist1">
+                            <li><a href="#">Career Services</a></li>
+                            <li><a href="#">Disability Services</a></li>
+                            <li><a href="#">Records Office</a></li>
+                            <li><a href="#">Transfer Services</a></li>
+                          </ul>
+                          <ul id="applylist2">
+                            <li><a href="#">Veteran Services</a></li>
+                            <li><a href="#">Leadership Program</a></li>
+                            <li><a href="#">RACCy Olympics</a></li>
+                            <li><a href="#">​​​​​​Clubs and Organizations</a></li>
+                          </ul>
+                        </div>
+                        <div class="applysec" style="display:none;">
+                          <p>APPLY <br>ONLINE AS:</p>
+                          <p class="sectext">If you want answers from a <br>current RACC student, Raven <br>
+                            Ambassadors can help. The ambassadors will answer any <br>
+                            questions you have about life <br>
+                            at the College</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="tfour" class="wanttext">
+                        <img class="commpic" src="css/img/tfour.png" alt="Community">
+                        <div class="decoration">
+                        </div>
+                        <div class="applyblock">
+                          <div class="applyfirst">
+                            <p>PROSPECTIVE <br>STUDENTS:</p>
+                            <ul id="applylist1">
+                              <li><a href="#">How to Get Started</a></li>
+                              <li><a href="#">Online Learning and Education</a></li>
+                              <li><a href="#">Workforce Development</a></li>
+                            </ul>
+                            <ul id="applylist2">
+                              <li><a href="#">View our Programs of Study</a></li>
+                              <li><a href="#">Search our Course Offerings</a></li>
+                            </ul>
+                          </div>
+                          <div class="applysec">
+                            <p>UNSURE <br>WHERE TO <br>BEGIN?</p>
+                            <p class="sectext">Speak with one of our Enrollment Coordinators by visiting the Welcome Center, calling 610-607-6224, or complete this Information Request and we’ll be in touch with you.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wantblockresponsive">
+                      <ul>
+                        <li><a class="enrollnow" href="#">ENROLL NOW</a></li>
+                        <li class="enrolldarker"><a href="#">PROSPECTIVE STUDENTS</a></li>
+                        <li class="enrolllighter"><a href="#">APPLY NOW</a></li>
+                        <li class="enrolldarker" ><a href="#">HOW TO PAY FOR COLLEGE</a></li>
+                        <li class="enrolllighter"> <a href="#">CAMPUS LIFE</a></li>
+                      </ul>
+                    </div>
+                  </header>
+                  <section id="featuredpc">
+                    <p class="sectiontitle">FEATURED NEWS</p>
+                    <div class="featured">
+                      <div class="featuredtext">
+                        <div id="spotlight1" class="spotlight">
+                          <div class="featuredtextpos">
+                            <p id="studentspot" class="sectiontitle">STUDENT SPOTLIGHT</p>
+                            <p id="iesha" class="sectiontitle">IESHA PIERCE</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br>
+                              adipisicing elit, sed do eiusmod tempor<br>
+                              incididunt ut labore et dolore magna <br>
+                              aliqua. Ut enim ad minim veniam, quis<br>
+                              nostrud exercitation ullamco laboris nisi</p>
+                            </div>
+                          </div>
+                        </div>
 
+                        <div id="spotlight2" class="spotlight">
+                          <p class="featurestand">Finding your voice</p>
+                        </div>
+                        <div id="spotlight3" class="spotlight">
+                          <p class="featurestand">RACC Graduate Survey <br>2014 - 2015</p>
+                        </div>
+                      </div>
+                    </section>
+                    <section id="featuredmobile">
+                      <p class="sectiontitle">FEATURED NEWS</p>
+                      <div class="featuredsmobile">
+                        <div class="featureone">
+                          <p class="featurestand">Student Spotlight</p>
+                        </div>
+                        <div class="featuretwo">
+                          <p class="featurestand"> Become A Certified Auctioneer</p>
+                        </div>
+                        <div class="featurethree">
+                          <p class="featurestand">Enroll Now or Spring 2!</p>
+                        </div>
+                      </div>
+                    </section>
+                    <section id="events">
+                      <div class="sectiontitle">
+                        <p class="upcomingtitle">upcoming events</p>
+                        <p id="moreupcoming" class="upcomingtitle"><a href="#">more</a></p>
+                      </div>
+                      <div class="upcoming">
+                        <div class="month">
+                          sep
+                          <div class="day">
+                            27
+                          </div>
+                        </div>
+                        <div class="month">
+                          oct
+                          <div class="day">
+                            29
+                          </div>
+                        </div>
+                        <div class="month">
+                          oct
+                          <div class="day">
+                            27
+                          </div>
+                        </div>
+                        <div class="textupcomingbar">
+                          <p class="textupcoming"><a href="#">Fall Semester Begins<br>First Day of Fall Classes!</a></p>
+                          <p class="textupcoming"><a href="#">Fall Semester Begins<br>First Day of Fall Classes!</a></p>
+                          <p class="textupcoming"><a href="#">Fall Semester Begins<br>First Day of Fall Classes!</a></p>
+                        </div>
+                      </div>
+                    </section>
+                    <section id="upcomingmobile">
+                      <p class="sectiontitle">UPCOMING EVENTS</p>
 
+                      <div class="month">
+                        sep
+                        <div class="day">
+                          27
+                        </div>
+                      </div>
+                      <p class="textupcoming"><a href="#">Fall Semester Begins</a></p>
 
+                    </section>
+                    <section id="getcon">
+                      <div class="getconnected">
+                        <div class="getconnected-top">
+                          <div id="FirstBlockUp" class="getconnected-cube">
+                            <p id="getconnected-title" class="sectiontitle">GET<br>CONNECTED</p>
+                            <ul class="getconnected-iconsbar">
+                              <li class="getconnected-icons"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                              <li class="getconnected-icons"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                              <li class="getconnected-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                              <li class="getconnected-icons"><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+                            </ul>
+                          </div>
+                          <div id="SecondBlockUp" class="getconnected-cube">
+                            <p class="twit"><a href="#">@amwejj.me</a></p>
+                            <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                          </div>
+                          <div id="ThirdBlockUp" class="getconnected-cube">
+                            <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
+                              to answer it in the next edition of the Front<br>
+                              Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
+                              <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
+                              <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
+                            </div>
+                            <div id="ForthBlockUp" class="getconnected-cube">
+                              <p class="twit"><a href="#">@amwejj.me</a></p>
+                              <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                            </div>
+                          </div>
+                          <div class="getconnected-bottom">
+                            <div id="FirstBlockDown" class="getconnected-cube">
+                              <p class="twit"><a href="#">@amwejj.me</a></p>
+                              <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                            </div>
+                            <div id="SecondBlockDown" class="getconnected-cube">
+                              <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
+                                to answer it in the next edition of the Front<br>
+                                Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
+                                <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
+                                <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
+                              </div>
+                              <div id="ThirdBlockDown" class="getconnected-cube">
+                                <p class="twit"><a href="#">@amwejj.me</a></p>
+                                <a class="single-icons" href="#"><i class="fa fa-instagram" ></i></a>
+                              </div>
+                              <div id="ForthBlockDown" class="getconnected-cube">
+                                <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
+                                  to answer it in the next edition of the Front<br>
+                                  Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
+                                  <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
+                                  <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <section id="getconmobile">
+                            <div id="FirstBlockUp" class="getconnected-cube">
+                              <p id="getconnected-title" class="sectiontitle">GET<br>CONNECTED</p>
+                              <ul class="getconnected-iconsbar">
+                                <li class="getconnected-icons"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li class="getconnected-icons"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                                <li class="getconnected-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                                <li class="getconnected-icons"><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+                              </ul>
+                            </div>
+                            <div id="ThirdBlockUp" class="getconnected-cube">
+                              <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
+                                to answer it in the next edition of the Front<br>
+                                Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
+                                <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
+                                <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
+                              </div>
+                              <div id="FirstBlockDown" class="getconnected-cube">
+                                <p class="twit"><a href="#">@amwejj.me</a></p>
+                                <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
+                              </div>
+                            </section>
 
-      <section id="events">
-        <div class="sectiontitle">
-          <p class="upcomingtitle">upcoming events</p>
-          <p id="moreupcoming" class="upcomingtitle"><a href="#">more</a></p>
-        </div>
-        <div class="upcoming">
-          <div class="month">
-            sep
-            <div class="day">
-              27
-            </div>
-          </div>
-          <div class="month">
-            oct
-            <div class="day">
-              29
-            </div>
-          </div>
-          <div class="month">
-            oct
-            <div class="day">
-              27
-            </div>
-          </div>
-          <div class="textupcomingbar">
-            <p class="textupcoming"><a href="#">Fall Semester Begins<br>First Day of Fall Classes!</a></p>
-            <p class="textupcoming"><a href="#">Fall Semester Begins<br>First Day of Fall Classes!</a></p>
-            <p class="textupcoming"><a href="#">Fall Semester Begins<br>First Day of Fall Classes!</a></p>
-          </div>
-        </div>
-      </section>
-      <section id="upcomingmobile">
-        <p class="sectiontitle">UPCOMING EVENTS</p>
+                            <section>
+                              <div class="Form">
+                                <form class="" action="index.html" method="post">
+                                  <p id="needinfo">NEED MORE INFO</p>
+                                  <div class="inputbar">
+                                    <input class="input" type="text" name="" value="Name">
+                                    <input class="input" type="text" name="" value="Contact Phone">
+                                    <input id="email" class="input" type="text" name="" value="Email">
+                                    <input class="button" type="submit" name="" value="Sign Up">
+                                    <p id="call">or call <span id="number">1.800.555.1212</span></p>
+                                  </div>
+                                </form>
+                              </div>
+                            </section>
 
-        <div class="month">
-          sep
-          <div class="day">
-            27
-          </div>
-        </div>
-        <p class="textupcoming"><a href="#">Fall Semester Begins</a></p>
+                            <section>
+                              <div class="readingarea">
+                              </div>
+                            </section>
+                            <section>
+                              <div class="aboutcontainer">
+                                <div class="aboutleft">
+                                  <p class="abouttitle">about racc</p>
+                                  <p class="abouttext">Reading Area Community College (RACC)<br>
+                                    isa an accredited, comprehensive,<br>
+                                    open-enrrollment education institution <br>
+                                    that provides the following: Associate <br>
+                                    degree, Certificate and Diploma <br>
+                                    Programs; career-focused training; <br>
+                                    transitional coursework; skills training for <br>
+                                    business and industry; personal <br>
+                                    enrichment programs and public service <br>
+                                    activities. Sponsored by the Berks County <br>
+                                    Commissioners the College provides <br>
+                                    affordable access to meet identified <br>
+                                    community educational need.</p>
 
-      </section>
+                                  </div>
+                                  <div class="aboutright">
+                                    <div class="abouttop">
 
-      <section id="getcon">
-        <div class="getconnected">
-          <div class="getconnected-top">
-            <div id="FirstBlockUp" class="getconnected-cube">
-              <p id="getconnected-title" class="sectiontitle">GET<br>CONNECTED</p>
-              <ul class="getconnected-iconsbar">
-                <li class="getconnected-icons"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                <li class="getconnected-icons"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                <li class="getconnected-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
-                <li class="getconnected-icons"><a href="#"><i class="fa fa-youtube-square"></i></a></li>
-              </ul>
-            </div>
-            <div id="SecondBlockUp" class="getconnected-cube">
-              <p class="twit"><a href="#">@amwejj.me</a></p>
-              <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
-            </div>
-            <div id="ThirdBlockUp" class="getconnected-cube">
-              <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
-              to answer it in the next edition of the Front<br>
-              Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
-              <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
-              <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
-            </div>
-            <div id="ForthBlockUp" class="getconnected-cube">
-              <p class="twit"><a href="#">@amwejj.me</a></p>
-              <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
-            </div>
-          </div>
-          <div class="getconnected-bottom">
-            <div id="FirstBlockDown" class="getconnected-cube">
-              <p class="twit"><a href="#">@amwejj.me</a></p>
-              <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
-            </div>
-            <div id="SecondBlockDown" class="getconnected-cube">
-              <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
-              to answer it in the next edition of the Front<br>
-              Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
-              <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
-              <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
-            </div>
-            <div id="ThirdBlockDown" class="getconnected-cube">
-              <p class="twit"><a href="#">@amwejj.me</a></p>
-              <a class="single-icons" href="#"><i class="fa fa-instagram" ></i></a>
-            </div>
-            <div id="ForthBlockDown" class="getconnected-cube">
-              <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
-              to answer it in the next edition of the Front<br>
-              Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
-              <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
-              <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="getconmobile">
-        <div id="FirstBlockUp" class="getconnected-cube">
-          <p id="getconnected-title" class="sectiontitle">GET<br>CONNECTED</p>
-          <ul class="getconnected-iconsbar">
-            <li class="getconnected-icons"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-            <li class="getconnected-icons"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-            <li class="getconnected-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
-            <li class="getconnected-icons"><a href="#"><i class="fa fa-youtube-square"></i></a></li>
-          </ul>
-        </div>
-        <div id="ThirdBlockUp" class="getconnected-cube">
-          <p class="advicetext">Need Advice? Send me a tweet! I'll be sure<br>
-          to answer it in the next edition of the Front<br>
-          Street Journal! <span><a href="#">@RACC_edu</a> <a href="#">#RACC</a> <a href="#">#Advice</a></span></p>
-          <p id="twitred" class="twit"><a href="#">@RACC_edu</a></p>
-          <li class="single-icons"><a href="#"><i class="fa fa-twitter" ></i></a></li>
-        </div>
-        <div id="FirstBlockDown" class="getconnected-cube">
-          <p class="twit"><a href="#">@amwejj.me</a></p>
-          <li class="instagram-icons"><a href="#"><i class="fa fa-instagram" ></i></a></li>
-        </div>
-      </section>
-
-      <section>
-        <div class="Form">
-          <form class="" action="index.html" method="post">
-            <p id="needinfo">NEED MORE INFO</p>
-            <div class="inputbar">
-              <input class="input" type="text" name="" value="Name">
-              <input class="input" type="text" name="" value="Contact Phone">
-              <input id="email" class="input" type="text" name="" value="Email">
-              <input class="button" type="submit" name="" value="Sign Up">
-              <p id="call">or call <span id="number">1.800.555.1212</span></p>
-            </div>
-          </form>
-        </div>
-      </section>
-
-      <section>
-        <div class="readingarea">
-        </div>
-      </section>
-      <section>
-        <div class="aboutcontainer">
-          <div class="aboutleft">
-            <p class="abouttitle">about racc</p>
-            <p class="abouttext">Reading Area Community College (RACC)<br>
-            isa an accredited, comprehensive,<br>
-            open-enrrollment education institution <br>
-            that provides the following: Associate <br>
-            degree, Certificate and Diploma <br>
-            Programs; career-focused training; <br>
-            transitional coursework; skills training for <br>
-            business and industry; personal <br>
-            enrichment programs and public service <br>
-            activities. Sponsored by the Berks County <br>
-            Commissioners the College provides <br>
-            affordable access to meet identified <br>
-            community educational need.</p>
-
-          </div>
-          <div class="aboutright">
-            <div class="abouttop">
-
-            </div>
-            <div class="aboutdown">
-              <p id="abouttitlegray" class="abouttitle">
-              why reading area community college</p>
-              <p id="abouttextblack" class="abouttext">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br>
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br>
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br>
-              fugiat nulla pariatur. Excepteur sint occaecat cupidataat non proident, sunt in culpa qui officia deserunt <br>
-              tmollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br>
-              doloremque laudantium, totam rem..aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="sponsors">
-          <a href="#"><img src="css/img/logo3.png" alt=""></a>
-          <a href="#"><img src="css/img/logo1.png" alt=""></a>
-          <a href="#"><img src="css/img/logo2.png" alt=""></a>
-        </div>
-      </section>
-      <footer>
-        <div class="footerleft">
-          <div class="footerlistbar">
-            <ul>
-              <li class="footerlist">Popular Links</li>
-              <li class="footerlist"><a href="#">Berks County Social Services</a></li>
-              <li class="footerlist"><a href="#">Business Opportunities</a></li>
-              <li class="footerlist"><a href="#">Campus Map and Directions</a></li>
-              <li class="footerlist"><a href="#">Human Resources</a></li>
-              <li class="footerlist"><a href="#">Website Index</a></li>
-            </ul>
-            <ul>
-              <li class="footerlist">Contact Information</li>
-              <li class="footerlist"><a href="#">Faculty/Staff Directory</a></li>
-              <li class="footerlist"><a href="#">Webmaster</a></li>
-              <li class="footerlist"><a href="#">Security</a></li>
-              <li class="footerlist"><a href="#">IT Support</a></li>
-            </ul>
-            <ul>
-              <li class="footerlist">Policies</li>
-              <li class="footerlist"><a href="#">Disclaimer</a></li>
-              <li class="footerlist"><a href="#">Non-Discrimination/EOE<br>Statement</a></li>
-              <li class="footerlist"><a href="#">Right to Know Act</a></li>
-              <li class="footerlist"><a href="#">Title IX</a></li>
-            </ul>
-            <ul>
-              <li class="footerlist">Login Center</li>
-              <li class="footerlist"><a href="#">myRACC Portal</a></li>
-              <li class="footerlist"><a href="#">E2 Campus</a></li>
-            </ul>
-          </div>
-          <div class="footericonbar">
-            <ul>
-              <li class="footericon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li class="footericon"><a href="#"><i id="white" class="fa fa-twitter"></i></a></li>
-              <li class="footericon"><a href="#"><i class="fa fa-youtube"></i></a></li>
-              <li class="footericon"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li class="footericon"><a href="#"><i class="fa fa-snapchat"></i></a></li>
-              <li class="footericon"><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footerright">
-          <img class="footerlogo" src="css/img/logo-white.png" alt="Logo White">
-          <p class="footertext">Copyright (c) 2017 Reading Area Community College <br>
-          10 South Second Street. Reading. PA 19603 610-372-4721</p>
-          <p class="footertext">Accredited by the Middle States Commission on Higher Education <br>
-          3624 Market Steet. Philadelpia. PA 19104 215-662-5606</p>
-        </div>
-      </footer>
-
-  </body>
-</html>
+                                    </div>
+                                    <div class="aboutdown">
+                                      <p id="abouttitlegray" class="abouttitle">
+                                        why reading area community college</p>
+                                        <p id="abouttextblack" class="abouttext">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br>
+                                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br>
+                                          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br>
+                                          fugiat nulla pariatur. Excepteur sint occaecat cupidataat non proident, sunt in culpa qui officia deserunt <br>
+                                          tmollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br>
+                                          doloremque laudantium, totam rem..aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                  <section>
+                                    <div class="sponsors">
+                                      <a href="#"><img src="css/img/logo3.png" alt=""></a>
+                                      <a href="#"><img src="css/img/logo1.png" alt=""></a>
+                                      <a href="#"><img src="css/img/logo2.png" alt=""></a>
+                                    </div>
+                                  </section>
+                                  <footer>
+                                    <div class="footerleft">
+                                      <div class="footerlistbar">
+                                        <ul>
+                                          <li class="footerlist">Popular Links</li>
+                                          <li class="footerlist"><a href="#">Berks County Social Services</a></li>
+                                          <li class="footerlist"><a href="#">Business Opportunities</a></li>
+                                          <li class="footerlist"><a href="#">Campus Map and Directions</a></li>
+                                          <li class="footerlist"><a href="#">Human Resources</a></li>
+                                          <li class="footerlist"><a href="#">Website Index</a></li>
+                                        </ul>
+                                        <ul>
+                                          <li class="footerlist">Contact Information</li>
+                                          <li class="footerlist"><a href="#">Faculty/Staff Directory</a></li>
+                                          <li class="footerlist"><a href="#">Webmaster</a></li>
+                                          <li class="footerlist"><a href="#">Security</a></li>
+                                          <li class="footerlist"><a href="#">IT Support</a></li>
+                                        </ul>
+                                        <ul>
+                                          <li class="footerlist">Policies</li>
+                                          <li class="footerlist"><a href="#">Disclaimer</a></li>
+                                          <li class="footerlist"><a href="#">Non-Discrimination/EOE<br>Statement</a></li>
+                                          <li class="footerlist"><a href="#">Right to Know Act</a></li>
+                                          <li class="footerlist"><a href="#">Title IX</a></li>
+                                        </ul>
+                                        <ul>
+                                          <li class="footerlist">Login Center</li>
+                                          <li class="footerlist"><a href="#">myRACC Portal</a></li>
+                                          <li class="footerlist"><a href="#">E2 Campus</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="footericonbar">
+                                        <ul>
+                                          <li class="footericon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                          <li class="footericon"><a href="#"><i id="white" class="fa fa-twitter"></i></a></li>
+                                          <li class="footericon"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                          <li class="footericon"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                          <li class="footericon"><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                                          <li class="footericon"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="footerright">
+                                      <img class="footerlogo" src="css/img/logo-white.png" alt="Logo White">
+                                      <p class="footertext">Copyright (c) 2017 Reading Area Community College <br>
+                                        10 South Second Street. Reading. PA 19603 610-372-4721</p>
+                                        <p class="footertext">Accredited by the Middle States Commission on Higher Education <br>
+                                          3624 Market Steet. Philadelpia. PA 19104 215-662-5606</p>
+                                        </div>
+                                      </footer>
+                                      <script src="js/scripts.js"></script>
+                                    </body>
+                                    </html>

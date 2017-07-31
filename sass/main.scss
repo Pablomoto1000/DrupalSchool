@@ -1,0 +1,55 @@
+@import "susy";
+@import "breakpoint";
+
+// Start of css code
+@import "variables";
+@import "flexboxmixin";
+
+@import "basicsetup";
+
+@import "header";
+
+@import "featured";
+
+@import "upcoming";
+
+@import "getcon";
+
+@import "form";
+
+@import "readingarea";
+
+@import "aboutarea";
+
+@import "sponsors";
+
+@import "footer";
+
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES*/
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px){
+
+  #events {
+    display: none;
+  }
+
+  .readingarea {
+    display: none;
+  }
+
+  .aboutcontainer {
+    display: none;
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  #pcfooter {
+    display: none;
+  }
+}
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES END*/
+/*-------------------------------------------------------------------------*/

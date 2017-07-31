@@ -1,0 +1,1301 @@
+/*--------------------------------------*/
+/*VARIABLES*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*BASIC SETUP*/
+/*--------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a:hover, a:active, a:focus, a:link, a:visited {
+  outline: 0;
+  outline: 0 !important;
+  outline-style: none;
+}
+
+/*--------------------------------------*/
+/*BASIC SETUP END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*HEADER SECTION*/
+/*--------------------------------------*/
+header {
+  width: 100%;
+}
+header .row {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 100%;
+  margin: 0;
+  height: 4.5rem;
+}
+header .row img {
+  height: 3.7rem;
+  width: auto;
+  position: relative;
+  left: 3.1%;
+  top: 10%;
+}
+header .row .main-nav {
+  float: right;
+  width: 72.5%;
+  height: 100%;
+  overflow: hidden;
+}
+header .row .main-nav li {
+  display: inline-block;
+  height: 100%;
+}
+header .row .main-nav li a:link, header .row .main-nav li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .row .main-nav .top-nav {
+  background-color: #ff3333;
+  height: 43%;
+  overflow: hidden;
+}
+header .row .main-nav .top-nav li {
+  padding: 0 2.7%;
+}
+header .row .main-nav .top-nav li:hover {
+  background-color: #EC2B2B;
+}
+header .row .main-nav .top-nav .searchi {
+  padding: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+header .row .main-nav .top-nav a, header .row .main-nav .top-nav a:visited {
+  font-family: 'Open Sans',sans-serif;
+  color: white;
+  font-size: 0.500em;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  line-height: 2rem;
+}
+header .row .main-nav .top-nav a:hover, header .row .main-nav .top-nav a:visited:hover {
+  font-weight: 900;
+}
+header .row .main-nav .bottom-nav {
+  height: 57%;
+}
+header .row .main-nav .bottom-nav li {
+  padding: 0 2%;
+}
+header .row .main-nav .bottom-nav li:hover {
+  background-color: white;
+}
+header .row .main-nav .bottom-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+header .row .main-nav .bottom-nav li ul li {
+  padding: 4% 20%;
+  width: 13rem;
+  margin-left: -19px;
+  display: block;
+  position: relative;
+  background-color: white;
+}
+header .row .main-nav .bottom-nav li ul li:hover {
+  background-color: #eaeaea;
+}
+header .row .main-nav .bottom-nav li ul li a {
+  font-size: 0.575rem;
+  line-height: 1.25rem;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  color: #444a5a;
+  cursor: pointer;
+}
+header .row .main-nav .bottom-nav li ul li a:hover {
+  color: black;
+  font-weight: 600;
+}
+header .row .main-nav .bottom-nav li:hover ul {
+  display: block;
+}
+header .row .main-nav .bottom-nav a, header .row .main-nav .bottom-nav a:visited {
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  line-height: 2.6rem;
+}
+header .slidertext {
+  font-size: 64%;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  position: absolute;
+  width: 29.5%;
+  top: 35.4%;
+  left: 10.9%;
+}
+header .slidertext a {
+  text-decoration: none;
+  color: white;
+}
+header .slidertext a:hover {
+  color: #ff3333;
+}
+header .slidertext #enroll {
+  letter-spacing: -1.1px;
+  line-height: 1;
+  font-size: 315%;
+  font-weight: 400;
+  padding-bottom: 7%;
+}
+header .wantblock {
+  height: auto;
+  width: 73%;
+  position: relative;
+  top: 31.7rem;
+  float: right;
+  right: 0.1%;
+}
+header .wantblock .wantlist {
+  float: left;
+  width: 31.4%;
+  height: auto;
+}
+header .wantblock .wantlist li {
+  height: 8.25em;
+  list-style: none;
+  text-align: center;
+  padding: 20.2% 0;
+}
+header .wantblock .wantlist li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 19% 25%;
+  margin: -28px;
+  line-height: 1em;
+}
+header .wantblock .wantlist #bone {
+  background-color: #88898e;
+}
+header .wantblock .wantlist #bone:hover {
+  background-color: #ff3333;
+}
+header .wantblock .wantlist #btwo {
+  background-color: #9a9ba0;
+}
+header .wantblock .wantlist #btwo:hover {
+  background-color: #ff3333;
+}
+header .wantblock .wantlist #bthree {
+  background-color: #B0B0B0;
+}
+header .wantblock .wantlist #bthree a {
+  padding: 13% 15%;
+  margin: 0 -42px 0 -56px;
+}
+header .wantblock .wantlist #bthree:hover {
+  background-color: #ff3333;
+}
+header .wantblock .wantlist #bfour {
+  background-color: #C8C8C8;
+}
+header .wantblock .wantlist #bfour a {
+  padding: 20% 15%;
+}
+header .wantblock .wantlist #bfour:hover {
+  background-color: #ff3333;
+}
+header .wantblock #ttwo, header .wantblock #tthree, header .wantblock #tfour {
+  display: none;
+}
+header .wantblock .wanttext {
+  float: right;
+  width: 68.6%;
+  height: 100%;
+}
+header .wantblock .wanttext .commpic {
+  width: 100%;
+  height: 17.8rem;
+}
+header .wantblock .wanttext .decoration::before {
+  content: '.';
+  position: absolute;
+  top: 309px;
+  left: 31.4%;
+  color: transparent;
+  width: 29%;
+  background: transparent;
+  border-bottom: 23px solid white;
+  border-right: 50px solid transparent;
+}
+header .wantblock .wanttext .decoration::after {
+  content: '.';
+  position: absolute;
+  top: 309px;
+  right: 0;
+  width: 29%;
+  color: transparent;
+  background: transparent;
+  border-bottom: 23px solid white;
+  border-left: 50px solid transparent;
+}
+header .wantblock .wanttext .applyblock {
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  padding: 4.6% 0 0 5.79%;
+  font-size: 1.49rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  color: #3a4d69;
+}
+header .wantblock .wanttext .applyblock .applyfirst {
+  width: 64%;
+  float: left;
+  font-size: 0;
+}
+header .wantblock .wanttext .applyblock .applyfirst p {
+  font-size: 1.49rem;
+}
+header .wantblock .wanttext .applyblock .applyfirst ul {
+  vertical-align: top;
+  padding-top: 10.4%;
+  font-weight: 600;
+  display: inline-block;
+  width: 50%;
+}
+header .wantblock .wanttext .applyblock .applyfirst ul #applylist1 {
+  float: left;
+}
+header .wantblock .wanttext .applyblock .applyfirst ul #applylist2 {
+  float: right;
+}
+header .wantblock .wanttext .applyblock .applyfirst ul li {
+  padding-bottom: 1%;
+  list-style: none;
+}
+header .wantblock .wanttext .applyblock .applyfirst ul li a {
+  text-decoration: none;
+  color: #ff3333;
+  font-size: 0.73rem;
+  line-height: 1.25rem;
+  height: 25%;
+}
+header .wantblock .wanttext .applyblock .applyfirst ul li a:hover {
+  text-decoration: underline;
+}
+header .wantblock .wanttext .applyblock .applysec {
+  width: 34%;
+  float: right;
+}
+header .wantblock .wanttext .applyblock .applysec .sectext {
+  font-weight: 600;
+  font-size: 0.465em;
+  line-height: 1.45em;
+  padding-top: 3.4em;
+}
+header .wantblockresponsive {
+  display: none;
+}
+
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES*/
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  /*--------------------------------------*/
+  /*NAV SECTION*/
+  /*--------------------------------------*/
+  header {
+    height: 127vw;
+  }
+  header .flexslider {
+    height: 108.5%;
+  }
+  header .flexslider .slides li img {
+    height: 23.7rem;
+  }
+  header .flexslider .slides li .slidertext {
+    font-size: 0.5rem;
+    width: 80.5%;
+    left: 7.9%;
+    top: 64.4%;
+  }
+  header .flexslider .slides li .slidertext #enrollnone {
+    display: none;
+  }
+  header .flexslider .flex-control-nav {
+    top: 454px;
+    left: 20.2%;
+  }
+  header .row {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 100%;
+    margin: 0 auto;
+    height: 72px;
+  }
+  header .row img {
+    width: 26%;
+    height: 2.5rem;
+    margin: 6px 0 0 67px;
+    position: absolute;
+  }
+  header .row .main-nav {
+    width: 100%;
+    height: auto;
+  }
+  header .row .main-nav li {
+    display: none;
+  }
+  header .row .main-nav .top-nav {
+    height: 2%;
+  }
+  header .row .main-nav .bottom-nav {
+    position: absolute;
+    height: auto;
+    top: 72px;
+    width: 100%;
+  }
+  header .row .main-nav .bottom-nav li {
+    width: 100%;
+    height: 2.4rem;
+    background-color: #eaeaea;
+  }
+  header .row .main-nav .bottom-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  header .row .main-nav .bottom-nav li ul {
+    width: 100%;
+    left: 0;
+    position: relative;
+    top: 0%;
+  }
+  header .row .main-nav .bottom-nav li ul li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  header .row .main-nav .bottom-nav li ul li a {
+    display: block;
+    padding-left: 2em;
+    line-height: 5em;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #eaeaea;
+  }
+  header .row .main-nav .responsivenav {
+    display: block;
+    margin: 3% 0;
+    float: right;
+    font-size: 1.7em;
+    list-style: none;
+  }
+  header .row .main-nav .responsivenav li {
+    display: inline-block;
+    margin: 0 1rem 0 0;
+  }
+  header .row .main-nav .responsivenav li a {
+    color: black;
+    text-decoration: none;
+  }
+  header .wantblock {
+    display: none;
+  }
+  header .wantblockresponsive {
+    display: block;
+    width: 100%;
+    background-color: #ff3333;
+    top: 20.1rem;
+    position: relative;
+  }
+  header .wantblockresponsive li {
+    height: 4.5em;
+    padding: 9% 0 0 17%;
+    list-style: none;
+  }
+  header .wantblockresponsive li .enrollnow {
+    padding: 3% 12% 3% 12%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+  header .wantblockresponsive .enrolldarker {
+    background-color: #88898e;
+  }
+  header .wantblockresponsive .enrolllighter {
+    background-color: #9a9ba0;
+  }
+  header .wantblockresponsive .enrolldarker a,
+  header .wantblockresponsive .enrolllighter a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+  }
+}
+/*--------------------------------------*/
+/*HEADER SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*FEATURED NEWS SECTION*/
+/*--------------------------------------*/
+#featuredpc {
+  margin-top: 1350px;
+}
+#featuredpc .featured {
+  height: 330px;
+  overflow-y: hidden;
+  width: 100%;
+  font-size: 0.2em;
+  padding: 4% 4%;
+}
+#featuredpc .featured .featuredtext {
+  width: 39.9%;
+  display: inline-block;
+  background-color: #88898e;
+  transform: scale(1.3);
+  margin: 1.5% 0 0 4%;
+}
+#featuredpc .featured .featuredtext #spotlight1 {
+  width: 50%;
+  background-image: url("img/girl-student.png");
+  background-color: #88898e;
+}
+#featuredpc .featured .featuredtext #spotlight1 .featuredtextpos {
+  position: absolute;
+  padding: 21.5% 0 0 52.7%;
+  color: white;
+  font-size: 2.7em;
+  line-height: 1.68em;
+  font-weight: 900;
+}
+#featuredpc .featured .featuredtext #spotlight1 .featuredtextpos #studentspot {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 900;
+  position: absolute;
+  margin: -19.7% 0 0 0;
+}
+#featuredpc .featured .featuredtext #spotlight1 .featuredtextpos #iesha {
+  padding-top: 0;
+  color: white;
+  position: absolute;
+  font-size: 2.19em;
+  margin: -7% 0 0 0;
+}
+#featuredpc .featured #spotlight2 {
+  background-image: linear-gradient(transparent, transparent, black), url("img/JS6_4325.png");
+  transform: scale(1.3);
+  height: 233px;
+  margin: 1% 0 0 10%;
+}
+#featuredpc .featured #spotlight3 {
+  background-image: linear-gradient(transparent, transparent, black), url("img/js3.png");
+  transform: scale(1.3);
+  height: 233px;
+  margin: 1% 0 0 7%;
+}
+#featuredpc .featured .featurestand {
+  position: absolute;
+  font-size: 3.8em;
+  color: white;
+  margin: 77% 0 0 5%;
+  font-weight: 900;
+}
+#featuredpc .featured .spotlight {
+  vertical-align: top;
+  display: inline-block;
+  width: 19.4%;
+  height: 301px;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectiontitle {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 3.4% 0 0 2.3%;
+  color: #3a4d37;
+  font-size: 1.5rem;
+}
+
+#featuredmobile {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #featuredpc {
+    display: none;
+  }
+
+  #featuredmobile {
+    display: block;
+    margin: 22rem 0 0 0;
+  }
+
+  .featuredsmobile {
+    width: 82%;
+    margin: 0 auto;
+  }
+  .featuredsmobile .featurestand {
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    margin: 62% 0 0 5%;
+    font-size: 0.9em;
+  }
+  .featuredsmobile .featureone {
+    background-image: url(img/girl-student.png);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+  }
+  .featuredsmobile .featuretwo {
+    background-image: linear-gradient(transparent, transparent, black), url(img/JS6_4325.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+  }
+  .featuredsmobile .featurethree {
+    background-image: linear-gradient(transparent, transparent, black), url(img/js3.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+  }
+
+  .sectiontitle {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+}
+/*--------------------------------------*/
+/*FEATURED NEWS SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*UPCOMING EVENTS SECTION*/
+/*--------------------------------------*/
+#upcomingmobile {
+  display: none;
+}
+
+.upcomingtitle {
+  display: inline-block;
+}
+
+#moreupcoming {
+  text-decoration: none;
+  margin-left: 70.5%;
+  font-size: 0.5em;
+}
+#moreupcoming a {
+  color: black;
+  text-decoration: none;
+}
+#moreupcoming a:hover {
+  text-decoration: underline;
+}
+
+.upcoming {
+  margin: 3.3% 0 0 0;
+}
+.upcoming .month {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  margin: 0 19.4% 0 5.7%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  height: 33px;
+  background: #ff3333;
+  color: white;
+  text-transform: uppercase;
+}
+.upcoming .month .day {
+  display: block;
+  width: 80px;
+  background-color: white;
+  color: black;
+  font-size: 1.6em;
+}
+.upcoming .textupcomingbar {
+  width: 100%;
+  margin: -4.8% 0 0 0;
+}
+.upcoming .textupcomingbar .textupcoming {
+  font-weight: 400;
+  display: inline-block;
+  font-size: 1.02em;
+  margin: 0 1.6% 0 12.5%;
+}
+.upcoming .textupcomingbar .textupcoming a {
+  text-decoration: none;
+  color: black;
+}
+.upcoming .textupcomingbar .textupcoming a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  .month {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin: 0 19.4% 0 5.7%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    height: 33px;
+    background: #ff3333;
+    color: white;
+    text-transform: uppercase;
+  }
+  .month .day {
+    display: block;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-size: 1.6em;
+  }
+
+  .textupcoming {
+    font-weight: 400;
+    display: inline-block;
+    font-size: 1.02em;
+    margin: 5% 0 0 -15%;
+    position: absolute;
+  }
+  .textupcoming a {
+    text-decoration: none;
+    color: black;
+  }
+  .textupcoming a:hover {
+    text-decoration: underline;
+  }
+
+  #upcomingmobile {
+    display: block;
+    height: 140px;
+  }
+}
+/*--------------------------------------*/
+/*UPCOMING EVENTS SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*GET CONNECTED SECTION*/
+/*--------------------------------------*/
+#getconmobile {
+  display: none;
+}
+
+.getconnected {
+  height: 684px;
+  width: 100%;
+  margin: 4.7% 0 0 0;
+}
+.getconnected .getconnected-cube {
+  height: 100%;
+  width: 25%;
+  padding-right: 0;
+  display: inline-block;
+  color: white;
+}
+.getconnected .instagram-icons {
+  position: relative;
+  font-weight: 900;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 88% 0 0 10%;
+  font-size: 1.2rem;
+}
+.getconnected .single-icons {
+  position: relative;
+  font-weight: 900;
+  text-transform: uppercase;
+  list-style: none;
+  margin: -8% 0 0 8%;
+  font-size: 1.2rem;
+}
+.getconnected .fa-instagram {
+  color: #f0f0f2;
+}
+.getconnected .fa-twitter {
+  color: red;
+}
+.getconnected .twit {
+  position: absolute;
+  font-size: 0.678rem;
+  color: white;
+  margin: 90% 0 0 39.5%;
+  font-weight: 900;
+}
+.getconnected .twit a {
+  text-decoration: none;
+  color: white;
+}
+.getconnected .twit a:hover {
+  text-decoration: underline;
+}
+.getconnected #twitred {
+  position: relative;
+  color: red;
+  margin: -4.5% 0% 0% 42%;
+  font-size: 0.6rem;
+}
+.getconnected #twitred a {
+  text-decoration: none;
+  color: red;
+}
+.getconnected #twitred a:hover {
+  text-decoration: underline;
+}
+.getconnected .advicetext {
+  color: #646e82;
+  font-size: 0.676rem;
+  margin: 40% 8%;
+}
+.getconnected .advicetext a {
+  text-decoration: none;
+  color: red;
+}
+.getconnected .advicetext a:hover {
+  text-decoration: underline;
+}
+.getconnected .getconnected-top {
+  height: 50%;
+  font-size: 0;
+}
+.getconnected .getconnected-top #FirstBlockUp {
+  position: relative;
+  vertical-align: top;
+  background-color: #ff3333;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-top #FirstBlockUp #getconnected-title {
+  color: #f0f0f2;
+  vertical-align: top;
+  margin: 8% 0 0 7.2%;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.getconnected .getconnected-top #FirstBlockUp .getconnected-iconsbar {
+  margin: 46.3% 0 0 0;
+  height: 100px;
+}
+.getconnected .getconnected-top #FirstBlockUp .getconnected-iconsbar .getconnected-icons {
+  font-weight: 900;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 0 0 0;
+  padding-left: 12.3%;
+  color: #f0f0f2;
+  font-size: 1.7rem;
+}
+.getconnected .getconnected-top #FirstBlockUp .getconnected-iconsbar .getconnected-icons a {
+  color: #f0f0f2;
+}
+.getconnected .getconnected-top #FirstBlockUp .getconnected-iconsbar .getconnected-icons a:hover {
+  opacity: 0.7;
+}
+.getconnected .getconnected-top #SecondBlockUp {
+  position: relative;
+  vertical-align: top;
+  background-image: url("img/img6.png");
+  background-position: center;
+  background-size: cover;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-top #ThirdBlockUp {
+  position: relative;
+  vertical-align: top;
+  background-color: #f0f0f2;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-top #ForthBlockUp {
+  position: relative;
+  vertical-align: top;
+  background-image: url("img/img0.png");
+  background-position: center;
+  background-size: cover;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-bottom {
+  height: 50%;
+  font-size: 0;
+}
+.getconnected .getconnected-bottom #FirstBlockDown {
+  position: relative;
+  vertical-align: top;
+  background-image: url("img/img1.png");
+  background-position: center;
+  background-size: cover;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-bottom #SecondBlockDown {
+  vertical-align: top;
+  background-color: #f0f0f2;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-bottom #ThirdBlockDown {
+  position: relative;
+  vertical-align: top;
+  background-image: url("img/img2.png");
+  background-position: center;
+  background-size: cover;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+.getconnected .getconnected-bottom #ForthBlockDown {
+  position: relative;
+  vertical-align: top;
+  background-color: #f0f0f2;
+  font-size: 2em;
+  margin: 0 0 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #getcon {
+    display: none;
+  }
+
+  #getconmobile {
+    display: block;
+  }
+
+  .getconnected-cube {
+    height: 100%;
+    width: 100%;
+    padding-right: 0;
+    display: inline-block;
+    color: white;
+  }
+
+  .instagram-icons {
+    position: relative;
+    font-weight: 900;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 88% 0 0 10%;
+    font-size: 1.2rem;
+  }
+
+  .single-icons {
+    position: relative;
+    font-weight: 900;
+    text-transform: uppercase;
+    list-style: none;
+    margin: -8% 0 0 8%;
+    font-size: 1.2rem;
+  }
+
+  .fa-instagram {
+    color: #f0f0f2;
+  }
+
+  .fa-twitter {
+    color: red;
+  }
+
+  .twit {
+    position: absolute;
+    font-size: 0.678rem;
+    color: white;
+    margin: 90% 0 0 39.5%;
+    font-weight: 900;
+  }
+  .twit a {
+    text-decoration: none;
+    color: white;
+  }
+  .twit a:hover {
+    text-decoration: underline;
+  }
+
+  #twitred {
+    position: relative;
+    color: red;
+    margin: -4.5% 0% 0% 42%;
+    font-size: 0.6rem;
+  }
+  #twitred a {
+    text-decoration: none;
+    color: red;
+  }
+  #twitred a:hover {
+    text-decoration: underline;
+  }
+
+  .advicetext {
+    color: #646e82;
+    font-size: 0.676rem;
+    margin: 40% 8%;
+  }
+  .advicetext a {
+    text-decoration: none;
+    color: red;
+  }
+  .advicetext a:hover {
+    text-decoration: underline;
+  }
+
+  #FirstBlockUp {
+    position: relative;
+    vertical-align: top;
+    background-color: #ff3333;
+    font-size: 2em;
+    margin: 0 0 0 0;
+  }
+  #FirstBlockUp #getconnected-title {
+    color: #f0f0f2;
+    vertical-align: top;
+    margin: 8% 0 0 7.2%;
+    font-size: 2.1rem;
+    font-weight: 900;
+  }
+  #FirstBlockUp .getconnected-iconsbar {
+    margin: 46.3% 0 0 0;
+    height: 100px;
+  }
+  #FirstBlockUp .getconnected-iconsbar .getconnected-icons {
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding-left: 12.3%;
+    color: #f0f0f2;
+    font-size: 1.7rem;
+  }
+  #FirstBlockUp .getconnected-iconsbar .getconnected-icons a {
+    color: #f0f0f2;
+  }
+  #FirstBlockUp .getconnected-iconsbar .getconnected-icons a:hover {
+    opacity: 0.7;
+  }
+
+  #ThirdBlockUp {
+    position: relative;
+    vertical-align: top;
+    background-color: #f0f0f2;
+    font-size: 2em;
+    margin: 0 0 0 0;
+  }
+
+  #FirstBlockDown {
+    position: relative;
+    vertical-align: top;
+    background-image: url("img/img1.png");
+    background-position: center;
+    background-size: cover;
+    font-size: 2em;
+    margin: 0 0 0 0;
+  }
+}
+/*--------------------------------------*/
+/*GET CONNECTED SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*FORM SECTION*/
+/*--------------------------------------*/
+.Form {
+  width: 87.08333%;
+  height: 220px;
+  float: right;
+  background-color: #87888e;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .Form {
+    width: 100%;
+    height: 170px;
+  }
+}
+.Form #needinfo {
+  margin: 3.5% 0 0 3.7%;
+  font-size: 1.5em;
+}
+.Form .inputbar {
+  margin: 2% 0 0 3.4%;
+}
+.Form .inputbar #email {
+  width: 22.2%;
+}
+.Form .inputbar .button {
+  width: 12%;
+  font-weight: 900;
+  color: white;
+  padding: 1.3% 1.3% 1.3% 1.3%;
+  border: 1px solid white;
+  background-color: #87888e;
+}
+.Form .inputbar .input {
+  padding: 1.3% 0 1.3% 1.3%;
+  width: 14.8%;
+  color: #87888e;
+}
+.Form .inputbar #call {
+  display: inline-block;
+  padding: 0 0 0 2%;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.Form .inputbar #call #number {
+  font-weight: 900;
+  font-size: 1.35em;
+}
+
+/*--------------------------------------*/
+/*FORM SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*READING AREA SECTION*/
+/*--------------------------------------*/
+.readingarea {
+  background-image: url(img/third_image_back.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 16.3% 0 0 0;
+  width: 100%;
+  height: 633px;
+}
+
+/*--------------------------------------*/
+/*READING AREA SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*ABOUT AREA SECTION*/
+/*--------------------------------------*/
+.aboutcontainer {
+  width: 87.8%;
+  height: 736px;
+  margin: -18% 0 0 0;
+  font-size: 0;
+}
+.aboutcontainer .aboutleft {
+  float: left;
+  width: 31.5%;
+  height: 100%;
+  background-color: #ff3333;
+}
+.aboutcontainer .aboutleft .abouttitle {
+  font-size: 1.5rem;
+  padding: 25.5% 0 0 8.5%;
+  color: white;
+  text-transform: uppercase;
+}
+.aboutcontainer .aboutleft .abouttext {
+  font-size: 0.68rem;
+  line-height: 1.66em;
+  font-weight: 400;
+  color: white;
+  padding: 7% 0 0 10%;
+}
+.aboutcontainer .aboutright {
+  float: right;
+  width: 68.5%;
+  height: 100%;
+}
+.aboutcontainer .aboutright .abouttop {
+  width: 100%;
+  height: 61.5%;
+  background-image: url("img/img5.png");
+  background-position: left;
+  background-size: cover;
+  zoom: 1;
+}
+.aboutcontainer .aboutright .aboutdown {
+  width: 100%;
+  height: 38.5%;
+  overflow-y: hidden;
+}
+.aboutcontainer .aboutright .aboutdown #abouttitlegray {
+  color: #89898e;
+  font-weight: 100;
+  padding: 4.7% 0 0 4.6%;
+}
+.aboutcontainer .aboutright .aboutdown #abouttitlegray #abouttextblack {
+  color: black;
+  padding: 1.6% 0 0 5%;
+}
+
+/*--------------------------------------*/
+/*ABOUT AREA SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*SPONSORS AREA SECTION*/
+/*--------------------------------------*/
+.sponsors {
+  width: 100%;
+  padding-left: 13%;
+  height: 268px;
+  background-color: #bfbfbf;
+}
+.sponsors a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5% 5% 4.5% 5%;
+  padding: 0 3.2% 0 3.2%;
+}
+.sponsors a:hover {
+  opacity: 0.6;
+}
+
+/*--------------------------------------*/
+/*SPONSORS AREA SECTION END*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*FOOTER SECTION*/
+/*--------------------------------------*/
+footer {
+  background-color: #323339;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  font-size: 0;
+}
+footer .footerleft {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+@media only screen and (max-width: 767px) {
+  footer .footerleft {
+    display: none;
+  }
+}
+footer .footerleft .footerlistbar {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+  font-size: 0.5rem;
+  letter-spacing: 0.6px;
+  width: 75.5%;
+  margin: 6% 0% 0 14%;
+  padding: 0 0% 5% 0;
+  color: red;
+  border-bottom: 1.4px solid white;
+}
+footer .footerleft .footerlistbar ul {
+  display: inline-block;
+  padding: 0 0 0 6.5%;
+  vertical-align: top;
+}
+footer .footerleft .footerlistbar .footerlist {
+  list-style: none;
+  margin: 7% 0 0 0;
+}
+footer .footerleft .footerlistbar .footerlist a {
+  color: white;
+  text-decoration: none;
+}
+footer .footerleft .footerlistbar .footerlist a:hover {
+  text-decoration: underline;
+}
+footer .footerleft .footericonbar {
+  font-size: 40px;
+  width: 100%;
+  margin: 5% 0 0 34.5%;
+}
+footer .footerleft .footericonbar .footericon {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0 0 2%;
+}
+footer .footerleft .footericonbar .footericon #white {
+  color: white;
+}
+footer .footerleft .footericonbar .footericon a {
+  color: white;
+  text-decoration: none;
+}
+footer .footerleft .footericonbar .footericon a:hover {
+  opacity: 0.7;
+}
+footer .footerright {
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+@media only screen and (max-width: 767px) {
+  footer .footerright {
+    width: 100%;
+  }
+}
+footer .footerright .footerlogo {
+  margin: 17% 0 0 0;
+  width: 60%;
+}
+@media only screen and (max-width: 767px) {
+  footer .footerright .footerlogo {
+    width: 60%;
+    margin: 8% 0 0 20%;
+  }
+}
+footer .footerright .footertext {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.51rem;
+  padding: 10% 0 0 0;
+  line-height: 2em;
+}
+@media only screen and (max-width: 767px) {
+  footer .footerright .footertext {
+    font-size: 0.53rem;
+    text-align: center;
+    margin: 0 0 0 -8%;
+  }
+}
+
+/*--------------------------------------*/
+/*FOOTER SECTION END*/
+/*--------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES*/
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  #events {
+    display: none;
+  }
+
+  .readingarea {
+    display: none;
+  }
+
+  .aboutcontainer {
+    display: none;
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  #pcfooter {
+    display: none;
+  }
+}
+/*-------------------------------------------------------------------------*/
+/*RESPOSIVE STYLES END*/
+/*-------------------------------------------------------------------------*/
