@@ -7,11 +7,12 @@
 
 .upcomingtitle {
   display: inline-block;
+  margin: 2.8% 0 0 0;
 }
 
 #moreupcoming {
   text-decoration: none;
-  margin-left: 70.5%;
+  margin-left: 69.7%;
   font-size: 0.5em;
   a {
     color: black;
@@ -23,15 +24,16 @@
 }
 
 .upcoming {
-  margin: 3.3% 0 0 0;
+  margin: 4% 0 0 0;
   .month {
     display: inline-block;
-    width: 80px;
+    width: 90px;
     text-align: center;
-    margin: 0 19.4% 0 5.7%;
+    margin: 0 20% 0 6%;
     font-family: 'Open Sans', sans-serif;
     font-weight: $bigweight;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    line-height: 34px;
     height: 33px;
     background: #ff3333;
     color: white;
@@ -41,17 +43,21 @@
       width: 80px;
       background-color: white;
       color: black;
-      font-size: 1.6em;
+      font-size: 1.7em;
+      line-height: 2.6rem;
+      font-weight: 600;
     }
   }
   .textupcomingbar {
     width: 100%;
-    margin: -4.8% 0 0 0;
+    margin: -4.3% 0 0 3px;
+    font-weight: 600;
+    font-size: 1.18rem;
     .textupcoming {
       font-weight: $mediumweight;
       display: inline-block;
       font-size: 1.02em;
-      margin: 0 1.6% 0 12.5%;
+      margin: 0 2.4% 0 12.5%;
       a {
         text-decoration: none;
         color: black;
@@ -66,19 +72,19 @@
 @media only screen and (max-width: 767px){
   .month {
     display: inline-block;
-    width: 80px;
+    width: 52px;
     text-align: center;
-    margin: 0 19.4% 0 5.7%;
+    margin: 35px 21.4% 0 8.6%;
     font-family: 'Open Sans', sans-serif;
-    font-weight: $bigweight;
-    font-size: 1.2em;
-    height: 33px;
+    font-weight: 600;
+    font-size: 0.8em;
+    height: 20px;
     background: #ff3333;
     color: white;
     text-transform: uppercase;
     .day {
       display: block;
-      width: 80px;
+      width: 50px;
       background-color: white;
       color: black;
       font-size: 1.6em;
@@ -88,7 +94,7 @@
     font-weight: $mediumweight;
     display: inline-block;
     font-size: 1.02em;
-    margin: 5% 0 0 -15%;
+    margin: 10% 0 0 -17%;
     position: absolute;
     a {
       text-decoration: none;

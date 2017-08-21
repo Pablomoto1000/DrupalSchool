@@ -2,21 +2,21 @@
 /*FEATURED NEWS SECTION*/
 /*--------------------------------------*/
 #featuredpc {
-  margin-top: 1350px;
+  margin-top: 1581px;
   .featured {
-    height: 330px;
+    height: 384px;
     overflow-y: hidden;
     width: 100%;
     font-size: 0.2em;
-    padding: 4% 4%;
+    padding: 3.5% 4.15%;
     .featuredtext {
-      width: 39.9%;
+      width: 39.5%;
       display: inline-block;
       background-color: #88898e;
       transform: scale(1.3);
       margin: 1.5% 0 0 4%;
       #spotlight1 {
-        width: 50%;
+        width: 49.5%;
         background-image: url("img/girl-student.png");
         background-color: #88898e;
         .featuredtextpos {
@@ -25,20 +25,27 @@
           color: white;
           font-size: 2.7em;
           line-height: 1.68em;
-          font-weight: $bigweight;
+          font-weight: $mediumweight;
           #studentspot {
             color: white;
-            font-size: 1.4em;
-            font-weight: $bigweight;
+            font-size: 1.5em;
+            font-weight: 600;
             position: absolute;
-            margin: -19.7% 0 0 0;
+            letter-spacing: 1.1px;
+            margin: -19.6% 0 0 0;
           }
           #iesha {
             padding-top: 0;
             color: white;
             position: absolute;
-            font-size: 2.19em;
-            margin: -7% 0 0 0;
+            font-size: 2.55em;
+            margin: -7.3% 0 0 0;
+          }
+          .StudenSpottex {
+            margin: 0 0 0 3px;
+            font-size: 0.6rem;
+            line-height: 20px;
+            font-weight: 600;
           }
         }
       }
@@ -46,22 +53,24 @@
     #spotlight2 {
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("img/JS6_4325.png");
       transform: scale(1.3);
-      height: 233px;
+      height: 271px;
       margin: 1% 0 0 10%;
+      width: 19%;
     }
 
     #spotlight3 {
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("img/js3.png");
       transform: scale(1.3);
-      height: 233px;
-      margin: 1% 0 0 7%;
+      height: 271px;
+      margin: 1% 0 0 7.2%;
+      width: 19%;
     }
 
     .featurestand {
       position: absolute;
-      font-size: 3.8em;
+      font-size: 4.2em;
       color: white;
-      margin: 77% 0 0 5%;
+      margin: 78% 0 0 5%;
       font-weight: $bigweight;
     }
     .spotlight {
@@ -77,12 +86,13 @@
 .sectiontitle {
   font-weight: $mediumweight;
   text-transform: uppercase;
-  margin: 3.4% 0 0 2.3%;
+  margin: 0 0 0 2.3%;
   color: #3a4d37;
-  font-size: 1.5rem;
+  font-size: 1.77rem;
 }
 #featuredmobile {
   display: none;
+  margin: 24rem 0 0 0;
 }
 
 @media only screen and (max-width: 767px){
@@ -96,40 +106,40 @@
   }
 
   .featuredsmobile {
-    width: 82%;
-    margin: 0 auto;
+    width: 87%;
+    margin: 7% auto;
     .featurestand {
       position: absolute;
       color: white;
-      font-weight: $bigweight;
-      margin: 62% 0 0 5%;
-      font-size: 0.9em;
+      font-weight: 600;
+      margin: 67% 0 0 6%;
+      font-size: 1.06em;
     }
     .featureone {
       background-image: url(img/girl-student.png);
-      height: 350px;
+      height: 385px;
       background-position: center;
       background-size: cover;
       margin-bottom: 2rem;
     }
     .featuretwo {
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(img/JS6_4325.png);
-      height: 300px;
+      height: 325px;
       background-position: center;
       background-size: cover;
       margin-bottom: 2rem;
     }
     .featurethree {
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(img/js3.png);
-      height: 300px;
+      height: 325px;
       background-position: center;
       background-size: cover;
       margin-bottom: 2rem;
     }
   }
   .sectiontitle {
-    font-size: 1.3rem;
-    margin: 1rem;
+    font-size: 1.18rem;
+    margin: 0 0 0 31px;
   }
 
 }

@@ -127,7 +127,7 @@ html[xmlns] .flexslider .slides {
   display: block;
   width: 55px;
   height: 55px;
-  margin: -20px 0 0;
+  margin: 38px 0 0;
   position: absolute;
   top: 43%;
   z-index: 10;
@@ -155,11 +155,11 @@ html[xmlns] .flexslider .slides {
 }*/
 .flex-direction-nav .flex-prev {
   background-image: url("img/prev_icon.png");
-  left: 10px;
+  left: 18px;
 }
 .flex-direction-nav .flex-next {
   background-image: url("img/next_icon.png");
-  right: 10px;
+  right: 26px;
   text-align: right;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
@@ -206,11 +206,11 @@ html[xmlns] .flexslider .slides {
   content: '\f003';
 }
 .flex-control-nav {
-  width: 250px;
+  width: 300px;
   position: absolute;
   z-index: 2;
-  top: 610px;
-  left: 10.2%;
+  top: 698px;
+  left: 167px;
 }
 .flex-control-nav li {
   margin: 0 6px;
@@ -219,7 +219,7 @@ html[xmlns] .flexslider .slides {
   *display: inline;
 }
 .flex-control-paging li a {
-  width: 47px;
+  width: 56px;
   height: 4px;
   display: block;
   background: white;

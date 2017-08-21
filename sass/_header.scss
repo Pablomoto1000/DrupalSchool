@@ -2,23 +2,33 @@
 /*HEADER SECTION*/
 /*--------------------------------------*/
 header {
-  width: 100%;
+  width: 1600px;
+  @media only screen and (max-width: 767px){
+    width: 100vw;
+  }
+  .flexslider {
+    width: 1600px;
+    height: 187.5%;
+    @media only screen and (max-width: 767px){
+      width: 100vw;
+    }
+  }
   .row {
     position: relative;
     background-color: rgba(255, 255, 255, 0.7);
     max-width: 100%;
     margin: 0;
-    height: 4.5rem;
+    height: 5.3rem;
     img {
-      height: 3.7rem;
+      height: 4.35rem;
       width: auto;
       position: relative;
-      left: 3.1%;
+      left: 3%;
       top: 10%;
     }
     .main-nav {
       float: right;
-      width: 72.5%;
+      width: 72.7%;
       height: 100%;
       overflow: hidden;
       li {
@@ -39,18 +49,21 @@ header {
             background-color: #EC2B2B;
           }
         }
+        .topheaderfirstli {
+          padding-left: 45px;
+        }
         .searchi {
           padding: 0;
-          font-size:1.2rem;
+          font-size:1.25rem;
           color:white;
         }
         a, a:visited  {
           font-family: 'Open Sans',sans-serif;
           color: white;
-          font-size: 0.500em;
+          font-size: 0.6em;
           letter-spacing: 2.5px;
           font-weight: 600;
-          line-height: 2rem;
+          line-height: 2.3rem;
           &:hover {
             font-weight: $bigweight;
           }
@@ -59,7 +72,7 @@ header {
       .bottom-nav {
         height: 57%;
         li {
-          padding: 0 2%;
+          padding: 0 1.5%;
           &:hover {
             background-color: white;
           }
@@ -70,7 +83,7 @@ header {
             li {
               padding: 4% 20%;
               width: 13rem;
-              margin-left: -19px;
+              margin-left: -17px;
               display: block;
               position: relative;
               background-color: white;
@@ -100,14 +113,15 @@ header {
           color: #000000;
           font-weight: 600;
           font-size: 0.7rem;
-          letter-spacing: 1px;
-          line-height: 2.6rem;
+          letter-spacing: 2.07px;
+          line-height: 3rem;
+          padding-right: 19px;
         }
       }
     }
   }
   .slidertext {
-    font-size: 64%;
+    font-size: 0.74rem;
     font-weight: 600;
     line-height: 1.5;
     color: white;
@@ -123,37 +137,35 @@ header {
       }
     }
     #enroll {
-      letter-spacing: -1.1px;
       line-height: 1;
-      font-size: 315%;
-      font-weight: $mediumweight;
+      font-size: 2.25rem;
+      font-weight: 400;
       padding-bottom: 7%;
     }
   }
   .wantblock {
     height: auto;
-    width: 73%;
+    width: 73.4%;
     position: relative;
-    top: 31.7rem;
+    top: 37.2rem;
     float: right;
-    right: 0.1%;
     .wantlist {
       float: left;
-      width: 31.4%;
+      width: 31%;
       height: auto;
       li {
-        height: 8.25em;
+        height: 9.7em;
         list-style: none;
         text-align: center;
         padding: 20.2% 0;
         a {
           color: white;
           text-decoration: none;
-          font-weight: $mediumweight;
-          font-size: 1.5rem;
-          padding: 19% 25%;
+          font-weight: 400;
+          font-size: 1.72rem;
+          padding: 21% 26%;
           margin: -28px;
-          line-height: 1em;
+          line-height: 1.3em;
         }
       }
       #bone {
@@ -171,8 +183,9 @@ header {
       #bthree {
         background-color: #B0B0B0;
         a {
-          padding: 13% 15%;
-          margin: 0 -42px 0 -56px;
+          padding: 0 14%;
+          line-height: 26px;
+          margin: 0 -53px 0 -62px;
         }
         &:hover {
           background-color: $mainred;
@@ -193,19 +206,19 @@ header {
     }
     .wanttext {
       float: right;
-      width: 68.6%;
+      width: 69%;
       height: 100%;
       .commpic {
         width: 100%;
-        height: 17.8rem;
+        height: 20.6rem;
       }
       .decoration::before {
         content: '.';
         position: absolute;
-        top: 309px;
-        left: 31.4%;
+        top: 365px;
+        left: 31%;
         color: transparent;
-        width: 29%;
+        width: 30%;
         background: transparent;
         border-bottom: 23px solid white;
         border-right: 50px solid transparent;
@@ -213,9 +226,9 @@ header {
       .decoration::after {
         content: '.';
         position: absolute;
-        top: 309px;
+        top: 365px;
         right: 0;
-        width: 29%;
+        width: 30%;
         color: transparent;
         background: transparent;
         border-bottom: 23px solid white;
@@ -224,11 +237,11 @@ header {
       .applyblock {
         position: relative;
         width: 100%;
-        height: 15rem;
+        height: 18rem;
         overflow: hidden;
-        padding: 4.6% 0 0 5.79%;
-        font-size: 1.49rem;
-        line-height: 1.6rem;
+        padding: 5% 0 0 5.79%;
+        font-size: 1.7rem;
+        line-height: 1.8rem;
         font-weight: $mediumweight;
         color: #3a4d69;
         .applyfirst {
@@ -236,14 +249,15 @@ header {
           float: left;
           font-size: 0;
           p {
-            font-size: 1.49rem;
+            font-size: 1.75rem;
           }
           ul {
             vertical-align: top;
-            padding-top: 10.4%;
+            padding-top: 11%;
             font-weight: 600;
             display: inline-block;
-            width: 50%;
+            width: 48%;
+            letter-spacing: 1.1px;
             #applylist1 {
               float: left;
             }
@@ -251,7 +265,7 @@ header {
               float: right;
             }
             li {
-              padding-bottom: 1%;
+              padding-bottom: 3%;
               list-style: none;
               a {
                 text-decoration: none;
@@ -267,12 +281,13 @@ header {
           }
         }
         .applysec {
-          width: 34%;
+          width: 36%;
+          padding-left: 0.2rem;
           float: right;
           .sectext {
             font-weight: 600;
             font-size: 0.465em;
-            line-height: 1.45em;
+            line-height: 1.54em;
             padding-top: 3.4em;
           }
         }
@@ -294,7 +309,7 @@ header {
   header {
     height: 127vw;
     .flexslider {
-      height: 108.5%;
+      height: 22.3rem;
       .slides {
         li {
           img {
@@ -305,6 +320,9 @@ header {
             width: 80.5%;
             left: 7.9%;
             top: 64.4%;
+            #enroll {
+              font-size: 1.6rem;
+            }
             #enrollnone {
               display: none;
             }
@@ -314,6 +332,9 @@ header {
       .flex-control-nav {
         top: 454px;
         left: 20.2%;
+      }
+      .flex-direction-nav a {
+        margin: -3px 0 0;
       }
     }
     .row {
@@ -334,7 +355,7 @@ header {
           display: none;
         }
         .top-nav {
-          height: 2%;
+          height: 0.35em;
         }
         .bottom-nav {
           position: absolute;
@@ -398,17 +419,19 @@ header {
       display: block;
       width: 100%;
       background-color: $mainred;
-      top: 20.1rem;
+      top: 18.7rem;
       position: relative;
       li {
-        height: 4.5em;
-        padding: 9% 0 0 17%;
+        height: 4.2em;
+        padding: 7.2% 0 0 22%;
         list-style: none;
+        border-bottom: 1.3px solid black;
         .enrollnow {
-          padding: 3% 12% 3% 12%;
+          padding: 3.5% 17.5%;
           background-color: white;
           color: black;
           text-decoration: none;
+          font-size: 0.8rem;
         }
       }
       .enrolldarker {

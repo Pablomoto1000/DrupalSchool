@@ -14,6 +14,12 @@ html {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  width: 1600px;
+}
+@media only screen and (max-width: 767px) {
+  html {
+    width: 100vw;
+  }
 }
 
 a:hover, a:active, a:focus, a:link, a:visited {
@@ -29,25 +35,39 @@ a:hover, a:active, a:focus, a:link, a:visited {
 /*HEADER SECTION*/
 /*--------------------------------------*/
 header {
-  width: 100%;
+  width: 1600px;
+}
+@media only screen and (max-width: 767px) {
+  header {
+    width: 100vw;
+  }
+}
+header .flexslider {
+  width: 1600px;
+  height: 187.5%;
+}
+@media only screen and (max-width: 767px) {
+  header .flexslider {
+    width: 100vw;
+  }
 }
 header .row {
   position: relative;
   background-color: rgba(255, 255, 255, 0.7);
   max-width: 100%;
   margin: 0;
-  height: 4.5rem;
+  height: 5.3rem;
 }
 header .row img {
-  height: 3.7rem;
+  height: 4.35rem;
   width: auto;
   position: relative;
-  left: 3.1%;
+  left: 3%;
   top: 10%;
 }
 header .row .main-nav {
   float: right;
-  width: 72.5%;
+  width: 72.7%;
   height: 100%;
   overflow: hidden;
 }
@@ -70,18 +90,21 @@ header .row .main-nav .top-nav li {
 header .row .main-nav .top-nav li:hover {
   background-color: #EC2B2B;
 }
+header .row .main-nav .top-nav .topheaderfirstli {
+  padding-left: 45px;
+}
 header .row .main-nav .top-nav .searchi {
   padding: 0;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: white;
 }
 header .row .main-nav .top-nav a, header .row .main-nav .top-nav a:visited {
   font-family: 'Open Sans',sans-serif;
   color: white;
-  font-size: 0.500em;
+  font-size: 0.6em;
   letter-spacing: 2.5px;
   font-weight: 600;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 header .row .main-nav .top-nav a:hover, header .row .main-nav .top-nav a:visited:hover {
   font-weight: 900;
@@ -90,7 +113,7 @@ header .row .main-nav .bottom-nav {
   height: 57%;
 }
 header .row .main-nav .bottom-nav li {
-  padding: 0 2%;
+  padding: 0 1.5%;
 }
 header .row .main-nav .bottom-nav li:hover {
   background-color: white;
@@ -103,7 +126,7 @@ header .row .main-nav .bottom-nav li ul {
 header .row .main-nav .bottom-nav li ul li {
   padding: 4% 20%;
   width: 13rem;
-  margin-left: -19px;
+  margin-left: -17px;
   display: block;
   position: relative;
   background-color: white;
@@ -130,11 +153,12 @@ header .row .main-nav .bottom-nav a, header .row .main-nav .bottom-nav a:visited
   color: #000000;
   font-weight: 600;
   font-size: 0.7rem;
-  letter-spacing: 1px;
-  line-height: 2.6rem;
+  letter-spacing: 2.07px;
+  line-height: 3rem;
+  padding-right: 19px;
 }
 header .slidertext {
-  font-size: 64%;
+  font-size: 0.74rem;
   font-weight: 600;
   line-height: 1.5;
   color: white;
@@ -151,27 +175,25 @@ header .slidertext a:hover {
   color: #ff3333;
 }
 header .slidertext #enroll {
-  letter-spacing: -1.1px;
   line-height: 1;
-  font-size: 315%;
+  font-size: 2.25rem;
   font-weight: 400;
   padding-bottom: 7%;
 }
 header .wantblock {
   height: auto;
-  width: 73%;
+  width: 73.4%;
   position: relative;
-  top: 31.7rem;
+  top: 37.2rem;
   float: right;
-  right: 0.1%;
 }
 header .wantblock .wantlist {
   float: left;
-  width: 31.4%;
+  width: 31%;
   height: auto;
 }
 header .wantblock .wantlist li {
-  height: 8.25em;
+  height: 9.7em;
   list-style: none;
   text-align: center;
   padding: 20.2% 0;
@@ -180,10 +202,10 @@ header .wantblock .wantlist li a {
   color: white;
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.5rem;
-  padding: 19% 25%;
+  font-size: 1.72rem;
+  padding: 21% 26%;
   margin: -28px;
-  line-height: 1em;
+  line-height: 1.3em;
 }
 header .wantblock .wantlist #bone {
   background-color: #88898e;
@@ -201,8 +223,9 @@ header .wantblock .wantlist #bthree {
   background-color: #B0B0B0;
 }
 header .wantblock .wantlist #bthree a {
-  padding: 13% 15%;
-  margin: 0 -42px 0 -56px;
+  padding: 0 14%;
+  line-height: 26px;
+  margin: 0 -53px 0 -62px;
 }
 header .wantblock .wantlist #bthree:hover {
   background-color: #ff3333;
@@ -221,20 +244,20 @@ header .wantblock #ttwo, header .wantblock #tthree, header .wantblock #tfour {
 }
 header .wantblock .wanttext {
   float: right;
-  width: 68.6%;
+  width: 69%;
   height: 100%;
 }
 header .wantblock .wanttext .commpic {
   width: 100%;
-  height: 17.8rem;
+  height: 20.6rem;
 }
 header .wantblock .wanttext .decoration::before {
   content: '.';
   position: absolute;
-  top: 309px;
-  left: 31.4%;
+  top: 365px;
+  left: 31%;
   color: transparent;
-  width: 29%;
+  width: 30%;
   background: transparent;
   border-bottom: 23px solid white;
   border-right: 50px solid transparent;
@@ -242,9 +265,9 @@ header .wantblock .wanttext .decoration::before {
 header .wantblock .wanttext .decoration::after {
   content: '.';
   position: absolute;
-  top: 309px;
+  top: 365px;
   right: 0;
-  width: 29%;
+  width: 30%;
   color: transparent;
   background: transparent;
   border-bottom: 23px solid white;
@@ -253,11 +276,11 @@ header .wantblock .wanttext .decoration::after {
 header .wantblock .wanttext .applyblock {
   position: relative;
   width: 100%;
-  height: 15rem;
+  height: 18rem;
   overflow: hidden;
-  padding: 4.6% 0 0 5.79%;
-  font-size: 1.49rem;
-  line-height: 1.6rem;
+  padding: 5% 0 0 5.79%;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
   font-weight: 400;
   color: #3a4d69;
 }
@@ -267,14 +290,15 @@ header .wantblock .wanttext .applyblock .applyfirst {
   font-size: 0;
 }
 header .wantblock .wanttext .applyblock .applyfirst p {
-  font-size: 1.49rem;
+  font-size: 1.75rem;
 }
 header .wantblock .wanttext .applyblock .applyfirst ul {
   vertical-align: top;
-  padding-top: 10.4%;
+  padding-top: 11%;
   font-weight: 600;
   display: inline-block;
-  width: 50%;
+  width: 48%;
+  letter-spacing: 1.1px;
 }
 header .wantblock .wanttext .applyblock .applyfirst ul #applylist1 {
   float: left;
@@ -283,7 +307,7 @@ header .wantblock .wanttext .applyblock .applyfirst ul #applylist2 {
   float: right;
 }
 header .wantblock .wanttext .applyblock .applyfirst ul li {
-  padding-bottom: 1%;
+  padding-bottom: 3%;
   list-style: none;
 }
 header .wantblock .wanttext .applyblock .applyfirst ul li a {
@@ -297,13 +321,14 @@ header .wantblock .wanttext .applyblock .applyfirst ul li a:hover {
   text-decoration: underline;
 }
 header .wantblock .wanttext .applyblock .applysec {
-  width: 34%;
+  width: 36%;
+  padding-left: 0.2rem;
   float: right;
 }
 header .wantblock .wanttext .applyblock .applysec .sectext {
   font-weight: 600;
   font-size: 0.465em;
-  line-height: 1.45em;
+  line-height: 1.54em;
   padding-top: 3.4em;
 }
 header .wantblockresponsive {
@@ -321,7 +346,7 @@ header .wantblockresponsive {
     height: 127vw;
   }
   header .flexslider {
-    height: 108.5%;
+    height: 22.3rem;
   }
   header .flexslider .slides li img {
     height: 23.7rem;
@@ -332,12 +357,18 @@ header .wantblockresponsive {
     left: 7.9%;
     top: 64.4%;
   }
+  header .flexslider .slides li .slidertext #enroll {
+    font-size: 1.6rem;
+  }
   header .flexslider .slides li .slidertext #enrollnone {
     display: none;
   }
   header .flexslider .flex-control-nav {
     top: 454px;
     left: 20.2%;
+  }
+  header .flexslider .flex-direction-nav a {
+    margin: -3px 0 0;
   }
   header .row {
     background-color: rgba(255, 255, 255, 0.7);
@@ -359,7 +390,7 @@ header .wantblockresponsive {
     display: none;
   }
   header .row .main-nav .top-nav {
-    height: 2%;
+    height: 0.35em;
   }
   header .row .main-nav .bottom-nav {
     position: absolute;
@@ -418,19 +449,21 @@ header .wantblockresponsive {
     display: block;
     width: 100%;
     background-color: #ff3333;
-    top: 20.1rem;
+    top: 18.7rem;
     position: relative;
   }
   header .wantblockresponsive li {
-    height: 4.5em;
-    padding: 9% 0 0 17%;
+    height: 4.2em;
+    padding: 7.2% 0 0 22%;
     list-style: none;
+    border-bottom: 1.3px solid black;
   }
   header .wantblockresponsive li .enrollnow {
-    padding: 3% 12% 3% 12%;
+    padding: 3.5% 17.5%;
     background-color: white;
     color: black;
     text-decoration: none;
+    font-size: 0.8rem;
   }
   header .wantblockresponsive .enrolldarker {
     background-color: #88898e;
@@ -452,24 +485,24 @@ header .wantblockresponsive {
 /*FEATURED NEWS SECTION*/
 /*--------------------------------------*/
 #featuredpc {
-  margin-top: 1350px;
+  margin-top: 1581px;
 }
 #featuredpc .featured {
-  height: 330px;
+  height: 384px;
   overflow-y: hidden;
   width: 100%;
   font-size: 0.2em;
-  padding: 4% 4%;
+  padding: 3.5% 4.15%;
 }
 #featuredpc .featured .featuredtext {
-  width: 39.9%;
+  width: 39.5%;
   display: inline-block;
   background-color: #88898e;
   transform: scale(1.3);
   margin: 1.5% 0 0 4%;
 }
 #featuredpc .featured .featuredtext #spotlight1 {
-  width: 50%;
+  width: 49.5%;
   background-image: url("img/girl-student.png");
   background-color: #88898e;
 }
@@ -479,39 +512,48 @@ header .wantblockresponsive {
   color: white;
   font-size: 2.7em;
   line-height: 1.68em;
-  font-weight: 900;
+  font-weight: 400;
 }
 #featuredpc .featured .featuredtext #spotlight1 .featuredtextpos #studentspot {
   color: white;
-  font-size: 1.4em;
-  font-weight: 900;
+  font-size: 1.5em;
+  font-weight: 600;
   position: absolute;
-  margin: -19.7% 0 0 0;
+  letter-spacing: 1.1px;
+  margin: -19.6% 0 0 0;
 }
 #featuredpc .featured .featuredtext #spotlight1 .featuredtextpos #iesha {
   padding-top: 0;
   color: white;
   position: absolute;
-  font-size: 2.19em;
-  margin: -7% 0 0 0;
+  font-size: 2.55em;
+  margin: -7.3% 0 0 0;
+}
+#featuredpc .featured .featuredtext #spotlight1 .featuredtextpos .StudenSpottex {
+  margin: 0 0 0 3px;
+  font-size: 0.6rem;
+  line-height: 20px;
+  font-weight: 600;
 }
 #featuredpc .featured #spotlight2 {
   background-image: linear-gradient(transparent, transparent, black), url("img/JS6_4325.png");
   transform: scale(1.3);
-  height: 233px;
+  height: 271px;
   margin: 1% 0 0 10%;
+  width: 19%;
 }
 #featuredpc .featured #spotlight3 {
   background-image: linear-gradient(transparent, transparent, black), url("img/js3.png");
   transform: scale(1.3);
-  height: 233px;
-  margin: 1% 0 0 7%;
+  height: 271px;
+  margin: 1% 0 0 7.2%;
+  width: 19%;
 }
 #featuredpc .featured .featurestand {
   position: absolute;
-  font-size: 3.8em;
+  font-size: 4.2em;
   color: white;
-  margin: 77% 0 0 5%;
+  margin: 78% 0 0 5%;
   font-weight: 900;
 }
 #featuredpc .featured .spotlight {
@@ -526,13 +568,14 @@ header .wantblockresponsive {
 .sectiontitle {
   font-weight: 400;
   text-transform: uppercase;
-  margin: 3.4% 0 0 2.3%;
+  margin: 0 0 0 2.3%;
   color: #3a4d37;
-  font-size: 1.5rem;
+  font-size: 1.77rem;
 }
 
 #featuredmobile {
   display: none;
+  margin: 24rem 0 0 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -546,41 +589,41 @@ header .wantblockresponsive {
   }
 
   .featuredsmobile {
-    width: 82%;
-    margin: 0 auto;
+    width: 87%;
+    margin: 7% auto;
   }
   .featuredsmobile .featurestand {
     position: absolute;
     color: white;
-    font-weight: 900;
-    margin: 62% 0 0 5%;
-    font-size: 0.9em;
+    font-weight: 600;
+    margin: 67% 0 0 6%;
+    font-size: 1.06em;
   }
   .featuredsmobile .featureone {
     background-image: url(img/girl-student.png);
-    height: 350px;
+    height: 385px;
     background-position: center;
     background-size: cover;
     margin-bottom: 2rem;
   }
   .featuredsmobile .featuretwo {
     background-image: linear-gradient(transparent, transparent, black), url(img/JS6_4325.png);
-    height: 300px;
+    height: 325px;
     background-position: center;
     background-size: cover;
     margin-bottom: 2rem;
   }
   .featuredsmobile .featurethree {
     background-image: linear-gradient(transparent, transparent, black), url(img/js3.png);
-    height: 300px;
+    height: 325px;
     background-position: center;
     background-size: cover;
     margin-bottom: 2rem;
   }
 
   .sectiontitle {
-    font-size: 1.3rem;
-    margin: 1rem;
+    font-size: 1.18rem;
+    margin: 0 0 0 31px;
   }
 }
 /*--------------------------------------*/
@@ -595,11 +638,12 @@ header .wantblockresponsive {
 
 .upcomingtitle {
   display: inline-block;
+  margin: 2.8% 0 0 0;
 }
 
 #moreupcoming {
   text-decoration: none;
-  margin-left: 70.5%;
+  margin-left: 69.7%;
   font-size: 0.5em;
 }
 #moreupcoming a {
@@ -611,16 +655,17 @@ header .wantblockresponsive {
 }
 
 .upcoming {
-  margin: 3.3% 0 0 0;
+  margin: 4% 0 0 0;
 }
 .upcoming .month {
   display: inline-block;
-  width: 80px;
+  width: 90px;
   text-align: center;
-  margin: 0 19.4% 0 5.7%;
+  margin: 0 20% 0 6%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  line-height: 34px;
   height: 33px;
   background: #ff3333;
   color: white;
@@ -631,17 +676,21 @@ header .wantblockresponsive {
   width: 80px;
   background-color: white;
   color: black;
-  font-size: 1.6em;
+  font-size: 1.7em;
+  line-height: 2.6rem;
+  font-weight: 600;
 }
 .upcoming .textupcomingbar {
   width: 100%;
-  margin: -4.8% 0 0 0;
+  margin: -4.3% 0 0 3px;
+  font-weight: 600;
+  font-size: 1.18rem;
 }
 .upcoming .textupcomingbar .textupcoming {
   font-weight: 400;
   display: inline-block;
   font-size: 1.02em;
-  margin: 0 1.6% 0 12.5%;
+  margin: 0 2.4% 0 12.5%;
 }
 .upcoming .textupcomingbar .textupcoming a {
   text-decoration: none;
@@ -654,20 +703,20 @@ header .wantblockresponsive {
 @media only screen and (max-width: 767px) {
   .month {
     display: inline-block;
-    width: 80px;
+    width: 52px;
     text-align: center;
-    margin: 0 19.4% 0 5.7%;
+    margin: 35px 21.4% 0 8.6%;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
-    font-size: 1.2em;
-    height: 33px;
+    font-weight: 600;
+    font-size: 0.8em;
+    height: 20px;
     background: #ff3333;
     color: white;
     text-transform: uppercase;
   }
   .month .day {
     display: block;
-    width: 80px;
+    width: 50px;
     background-color: white;
     color: black;
     font-size: 1.6em;
@@ -677,7 +726,7 @@ header .wantblockresponsive {
     font-weight: 400;
     display: inline-block;
     font-size: 1.02em;
-    margin: 5% 0 0 -15%;
+    margin: 10% 0 0 -17%;
     position: absolute;
   }
   .textupcoming a {
@@ -704,9 +753,9 @@ header .wantblockresponsive {
 }
 
 .getconnected {
-  height: 684px;
+  height: 798px;
   width: 100%;
-  margin: 4.7% 0 0 0;
+  margin: 5% 0 0 0;
 }
 .getconnected .getconnected-cube {
   height: 100%;
@@ -720,7 +769,7 @@ header .wantblockresponsive {
   font-weight: 900;
   text-transform: uppercase;
   list-style: none;
-  padding: 88% 0 0 10%;
+  padding: 87% 0 0 12%;
   font-size: 1.2rem;
 }
 .getconnected .single-icons {
@@ -728,8 +777,8 @@ header .wantblockresponsive {
   font-weight: 900;
   text-transform: uppercase;
   list-style: none;
-  margin: -8% 0 0 8%;
-  font-size: 1.2rem;
+  margin: -5% 0 0 9%;
+  font-size: 1.5rem;
 }
 .getconnected .fa-instagram {
   color: #f0f0f2;
@@ -739,9 +788,9 @@ header .wantblockresponsive {
 }
 .getconnected .twit {
   position: absolute;
-  font-size: 0.678rem;
+  font-size: 0.75rem;
   color: white;
-  margin: 90% 0 0 39.5%;
+  margin: 90% 0 0 38.5%;
   font-weight: 900;
 }
 .getconnected .twit a {
@@ -790,12 +839,13 @@ header .wantblockresponsive {
 .getconnected .getconnected-top #FirstBlockUp #getconnected-title {
   color: #f0f0f2;
   vertical-align: top;
-  margin: 8% 0 0 7.2%;
-  font-size: 2.1rem;
-  font-weight: 900;
+  margin: 9.8% 0 0 9.2%;
+  font-size: 2.43rem;
+  line-height: 52px;
+  font-weight: 400;
 }
 .getconnected .getconnected-top #FirstBlockUp .getconnected-iconsbar {
-  margin: 46.3% 0 0 0;
+  margin: 47.6% 0 0 0;
   height: 100px;
 }
 .getconnected .getconnected-top #FirstBlockUp .getconnected-iconsbar .getconnected-icons {
@@ -803,7 +853,8 @@ header .wantblockresponsive {
   text-transform: uppercase;
   display: inline-block;
   margin: 0 0 0 0;
-  padding-left: 12.3%;
+  padding-left: 11%;
+  padding-right: 3.5%;
   color: #f0f0f2;
   font-size: 1.7rem;
 }
@@ -1018,8 +1069,8 @@ header .wantblockresponsive {
 /*FORM SECTION*/
 /*--------------------------------------*/
 .Form {
-  width: 87.08333%;
-  height: 220px;
+  width: 87%;
+  height: 258px;
   float: right;
   background-color: #87888e;
   color: white;
@@ -1032,31 +1083,34 @@ header .wantblockresponsive {
 }
 .Form #needinfo {
   margin: 3.5% 0 0 3.7%;
-  font-size: 1.5em;
+  font-size: 1.74em;
 }
 .Form .inputbar {
-  margin: 2% 0 0 3.4%;
+  margin: 2.2% 0 0 3.4%;
 }
 .Form .inputbar #email {
   width: 22.2%;
 }
 .Form .inputbar .button {
-  width: 12%;
+  width: 11.5%;
   font-weight: 900;
+  margin-left: 0.2%;
   color: white;
-  padding: 1.3% 1.3% 1.3% 1.3%;
+  padding: 1.6% 1.3% 1.5% 1.3%;
   border: 1px solid white;
   background-color: #87888e;
 }
 .Form .inputbar .input {
   padding: 1.3% 0 1.3% 1.3%;
-  width: 14.8%;
+  width: 14.6%;
+  height: 3.1rem;
+  border-radius: 5px;
   color: #87888e;
 }
 .Form .inputbar #call {
   display: inline-block;
   padding: 0 0 0 2%;
-  font-size: 1.3em;
+  font-size: 1.35em;
   font-weight: 900;
 }
 .Form .inputbar #call #number {
@@ -1075,9 +1129,9 @@ header .wantblockresponsive {
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 16.3% 0 0 0;
+  margin: 16.1% 0 0 0;
   width: 100%;
-  height: 633px;
+  height: 742px;
 }
 
 /*--------------------------------------*/
@@ -1087,33 +1141,33 @@ header .wantblockresponsive {
 /*ABOUT AREA SECTION*/
 /*--------------------------------------*/
 .aboutcontainer {
-  width: 87.8%;
-  height: 736px;
-  margin: -18% 0 0 0;
+  width: 86.9%;
+  height: 858px;
+  margin: -17.5% 0 0 0;
   font-size: 0;
 }
 .aboutcontainer .aboutleft {
   float: left;
-  width: 31.5%;
+  width: 31.7%;
   height: 100%;
   background-color: #ff3333;
 }
 .aboutcontainer .aboutleft .abouttitle {
-  font-size: 1.5rem;
+  font-size: 1.78rem;
   padding: 25.5% 0 0 8.5%;
   color: white;
   text-transform: uppercase;
 }
 .aboutcontainer .aboutleft .abouttext {
-  font-size: 0.68rem;
-  line-height: 1.66em;
+  font-size: 0.89rem;
+  line-height: 30px;
   font-weight: 400;
   color: white;
-  padding: 7% 0 0 10%;
+  padding: 6% 0 0 10%;
 }
 .aboutcontainer .aboutright {
   float: right;
-  width: 68.5%;
+  width: 68.3%;
   height: 100%;
 }
 .aboutcontainer .aboutright .abouttop {
@@ -1127,12 +1181,17 @@ header .wantblockresponsive {
 .aboutcontainer .aboutright .aboutdown {
   width: 100%;
   height: 38.5%;
+  margin: 23px 0 0 53px;
+  font-size: 0.912rem;
+  line-height: 1.5rem;
   overflow-y: hidden;
 }
 .aboutcontainer .aboutright .aboutdown #abouttitlegray {
   color: #89898e;
-  font-weight: 100;
-  padding: 4.7% 0 0 4.6%;
+  font-size: 1.73rem;
+  font-weight: 400;
+  padding: 3.5% 0 19px 0;
+  text-transform: uppercase;
 }
 .aboutcontainer .aboutright .aboutdown #abouttitlegray #abouttextblack {
   color: black;
@@ -1148,14 +1207,14 @@ header .wantblockresponsive {
 .sponsors {
   width: 100%;
   padding-left: 13%;
-  height: 268px;
+  height: 317px;
   background-color: #bfbfbf;
 }
 .sponsors a {
   color: white;
   text-decoration: none;
   display: inline-block;
-  margin: 5% 5% 4.5% 5%;
+  margin: 5.8% 5.6%;
   padding: 0 3.2% 0 3.2%;
 }
 .sponsors a:hover {
@@ -1173,7 +1232,7 @@ footer {
   display: inline-block;
   overflow: hidden;
   width: 100%;
-  height: 400px;
+  height: 457px;
   font-size: 0;
 }
 footer .footerleft {
@@ -1189,11 +1248,11 @@ footer .footerleft {
 footer .footerleft .footerlistbar {
   font-family: 'Raleway',sans-serif;
   font-weight: 400;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   letter-spacing: 0.6px;
   width: 75.5%;
-  margin: 6% 0% 0 14%;
-  padding: 0 0% 5% 0;
+  margin: 6.5% 0% 0 14%;
+  padding: 0 0 3.3% 0;
   color: red;
   border-bottom: 1.4px solid white;
 }
@@ -1204,7 +1263,7 @@ footer .footerleft .footerlistbar ul {
 }
 footer .footerleft .footerlistbar .footerlist {
   list-style: none;
-  margin: 7% 0 0 0;
+  margin: 7.5% 0 0 0;
 }
 footer .footerleft .footerlistbar .footerlist a {
   color: white;
@@ -1214,14 +1273,14 @@ footer .footerleft .footerlistbar .footerlist a:hover {
   text-decoration: underline;
 }
 footer .footerleft .footericonbar {
-  font-size: 40px;
+  font-size: 41px;
   width: 100%;
-  margin: 5% 0 0 34.5%;
+  margin: 5% 0 0 32.3%;
 }
 footer .footerleft .footericonbar .footericon {
   list-style: none;
   display: inline-block;
-  margin: 0 0 0 2%;
+  margin: 0 0 0 2.8%;
 }
 footer .footerleft .footericonbar .footericon #white {
   color: white;
@@ -1244,8 +1303,8 @@ footer .footerright {
   }
 }
 footer .footerright .footerlogo {
-  margin: 17% 0 0 0;
-  width: 60%;
+  margin: 17.5% 0 0 -9px;
+  width: 57.8%;
 }
 @media only screen and (max-width: 767px) {
   footer .footerright .footerlogo {
@@ -1257,9 +1316,9 @@ footer .footerright .footertext {
   font-family: 'Raleway',sans-serif;
   font-weight: 600;
   color: #ffffff;
-  font-size: 0.51rem;
-  padding: 10% 0 0 0;
-  line-height: 2em;
+  line-height: 24px;
+  font-size: 0.6rem;
+  margin: 47px 0 -26px -11px;
 }
 @media only screen and (max-width: 767px) {
   footer .footerright .footertext {
